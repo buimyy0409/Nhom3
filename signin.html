@@ -11,9 +11,9 @@
     <!-- kiểm soát cách trang web hiển thị trên các thiết bị di động.-->
     <!--Thuộc tính name xác định tên của thẻ meta. Trong trường hợp này, viewport cho biết thẻ này kiểm soát cách trang web hiển thị trên các thiết bị di động.-->
     <!--Thuộc tính content chứa các giá trị cho thẻ meta:
-        - width=device-width đặt chiều rộng của viewport bằng chiều rộng của thiết bị.
-        - initial-scale=1 đặt tỷ lệ ban đầu của trang web là 1, nghĩa là trang web sẽ không được phóng to hoặc thu nhỏ khi nó được tải lần đầu.
-        - shrink-to-fit=no ngăn trình duyệt tự động điều chỉnh kích thước nội dung để phù hợp với chiều rộng của thiết bị.-->
+                - width=device-width đặt chiều rộng của viewport bằng chiều rộng của thiết bị.
+                - initial-scale=1 đặt tỷ lệ ban đầu của trang web là 1, nghĩa là trang web sẽ không được phóng to hoặc thu nhỏ khi nó được tải lần đầu.
+                - shrink-to-fit=no ngăn trình duyệt tự động điều chỉnh kích thước nội dung để phù hợp với chiều rộng của thiết bị.-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--Thẻ này cung cấp mô tả về nội dung trang web, thường được sử dụng bởi công cụ tìm kiếm khi hiển thị kết quả tìm kiếm. Trong trường hợp này, không có mô tả nào được cung cấp.-->
@@ -26,12 +26,12 @@
     <!--Thẻ link trong HTML, được sử dụng để liên kết tới một tệp tin khác từ trang HTML hiện tại.-->
     <!--Thuộc tính href xác định đường dẫn tới tệp tin cần liên kết, nó liên kết tới tệp tin favicon.png trong thư mục images-->
     <!--Thuộc tính rel xác định mối quan hệ giữa trang HTML hiện tại và tệp tin được liên kết. Trong trường hợp này, giá trị shortcut icon cho biết tệp tin liên kết là một favicon, biểu tượng nhỏ xuất hiện trên tab trình duyệt bên cạnh tiêu đề trang.-->
-    <link href="images/logo/logo-favicon.png" rel="shortcut icon">
+    <link href="images/CMC logo.png" rel="shortcut icon">
     <!--Title của website được thể hiện trên nút tab của trình duyệt-->
-    <title>Chiêu Minh Các Concept</title>
+    <title>Chiêu Minh Các - 昭明閣</title>
 
-    <!--====== Google Font: lấy định dạng css từ link được gắn vào ======-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <!--====== Font Montserrat ======-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
     <!--====== Vendor Css: lấy định dạng css từ file này ======-->
     <link rel="stylesheet" href="css/vendor.css">
@@ -41,6 +41,9 @@
 
     <!--====== App: lấy định dạng css từ file này ======-->
     <link rel="stylesheet" href="css/app.css">
+
+
+
 </head>
 <!-- áp dụng các quy tắc định dạng css của class "config" cho body-->
 
@@ -61,7 +64,9 @@
         <!--====== Main Header ======-->
         <!-- <header class="...">: áp dụng định dạng của class ... cho thẻ header; header là thẻ định nghĩa header của trang-->
         <header class="header--style-2">
-
+            <div class="top-banner">
+                <p id="banner-text">CHÀO MỪNG GIÁNG SINH - GIẢM GIÁ 20% TẤT CẢ CÁC SẢN PHẨM CỦA CHIÊU MINH CÁC - 昭明閣</p>
+            </div>
             <!--====== Nav 1 (dòng header đầu tiên) ======-->
             <!-- <nav class="...">: áp dụng định dạng của class ... cho thẻ nav; thẻ nav được sử dụng để định nghĩa thanh menu hoặc các liên kết điều hướng quan trọng trên một trang/website -->
             <nav class="primary-nav-wrapper">
@@ -76,7 +81,7 @@
                         <!--thẻ <a> được dùng để xác định một liên kết; liên kết đó được chỉnh định trong thuộc tính href trong thẻ a-->
                         <a class="main-logo" href="index.html">
                             <!-- khi người dùng nhấp vào hình ảnh thì nó sẽ được chuyển hướng đến trang được chỉnh định trong thuộc tính href của thẻ a-->
-                            <img src="images/logo/logo-2.png" alt="">
+                            <img src="images/preloader.png" alt="">
                         </a>
                         <!--====== End - Main Logo ======-->
                         <!--====== Search Form: đoạn code này dùng để thể hiện nội dung của thanh tìm kiếm ======-->
@@ -87,8 +92,8 @@
                             <label for="main-search"></label>
 
                             <!--phần tử <input> được sử dụng để tạo một ô nhập liệu; type="": chọn kiểu dữ liệu được nhập vào;
-                        Thuộc tính id="main-search" liên kết phần tử này với nhãn có for="main-search";
-                        placehoder="": hiển thị một văn bản gợi ý trong ô nhập liệu khi không có dữ liệu. -->
+                                    Thuộc tính id="main-search" liên kết phần tử này với nhãn có for="main-search";
+                                    placehoder="": hiển thị một văn bản gợi ý trong ô nhập liệu khi không có dữ liệu. -->
                             <input class="input-text input-text--border-radius input-text--only-white" type="text" id="main-search" placeholder="Tìm kiếm">
 
                             <!--phần tử <button> được sử dụng để tạo một nút nhấn; type="submit" chỉ định rằng nút nhấn này sẽ gửi biểu mẫu khi được nhấp vào.-->
@@ -98,7 +103,7 @@
                         <!--====== Dropdown Main plugin: đoạn code này dùng để thể hiện nội dung của các nút tài khoản, liên hệ, gửi mail ======-->
                         <div class="menu-init" id="navigation">
                             <!--Lớp fas fa-cogs là một lớp của Font Awesome, một thư viện biểu tượng, và nó hiển thị một biểu tượng cogs (cơ cấu). Nút này có thể được sử dụng để mở / đóng menu. type="button" Đây là giá trị mặc định cho thẻ button. Nút này không có hành vi mặc định khi được nhấp vào.-->
-                            <button style="color:#7A0516;" class="btn btn--icon toggle-button toggle-button--white fas fa-cogs" type="button"></button>
+                            <button style="color: #7A0516;" class="btn btn--icon toggle-button toggle-button--white fas fa-cogs" type="button"></button>
 
 
 
@@ -184,6 +189,8 @@
                 </div>
             </nav>
             <!--====== End - Nav 1 (hết dòng menu đầu tiên) ======-->
+
+
             <!--====== Nav 2 (dòng menu thứ hai) ======-->
             <nav class="secondary-nav-wrapper">
                 <div class="container">
@@ -194,8 +201,434 @@
                         <!--====== Dropdown Main plugin: dòng code này nhằm mục đích để thanh menu trang chủ, cửa hàng,... được đẩy vào giữa ======-->
                         <!--======Tạo responsive design cho header-->
                         <div class="menu-init" id="navigation1">
+                            <button style="background-color: #7A0516;" class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
+
+                            <!--====== Menu ======-->
+                            <div class="ah-lg-mode">
+
+                                <span class="ah-close">✕ Close</span>
+
+                                <!--====== List ======-->
+                                <ul class="ah-list">
+                                    <li class="has-dropdown">
+
+                                        <span class="mega-text">M</span>
+
+                                        <!--====== Mega Menu ======-->
+
+                                        <span class="js-menu-toggle"></span>
+                                        <div class="mega-menu">
+                                            <div class="mega-menu-wrap">
+                                                <div class="mega-menu-list">
+                                                    <ul>
+                                                        <li class="js-active">
+
+                                                            <a href="shop-grid-left.html"><i class="fas fa-male u-s-m-r-6"></i>
+        
+                                                                        <span>Nam</span></a>
+
+                                                            <span class="js-menu-toggle js-toggle-mark"></span></li>
+                                                        <li>
+
+                                                            <a href="shop-grid-left.html"><i class="fas fa-female u-s-m-r-6"></i>
+        
+                                                                        <span>Nữ</span></a>
+
+                                                            <span class="js-menu-toggle"></span></li>
+                                                        <li>
+
+                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i></i>
+        
+                                                                        <span>Nhật Bình</span></a>
+
+                                                            <span class="js-menu-toggle"></span></li>
+                                                        <li>
+
+                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
+        
+                                                                        <span>Ngũ thân tay chẽn</span></a>
+
+                                                            <span class="js-menu-toggle"></span></li>
+                                                        <li>
+
+                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
+        
+                                                                        <span>Ngũ thân tay thụng</span></a>
+
+                                                            <span class="js-menu-toggle"></span></li>
+                                                        <li>
+
+                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
+        
+                                                                        <span>Áo Tấc</span></a>
+
+                                                            <span class="js-menu-toggle"></span></li>
+                                                        <li>
+
+                                                            <a href="index.html"><i class="fas fa-heartbeat u-s-m-r-6"></i>
+        
+                                                                        <span>Bộ giáp</span></a>
+
+                                                            <span class="js-menu-toggle"></span></li>
+                                                        <li>
+
+                                                            <a href="index.html"><i class="fas fa-heartbeat u-s-m-r-6"></i>
+        
+                                                                        <span>Phụ kiện</span></a>
+
+                                                            <span class="js-menu-toggle"></span></li>
+                                                        <li>
+
+                                                            <a href="index.html"><i class="fas fa-heartbeat u-s-m-r-6"></i>
+        
+                                                                        <span>Khác</span></a>
+
+                                                            <span class="js-menu-toggle"></span></li>
+                                                    </ul>
+                                                </div>
+
+                                                <!--====== Nam ======-->
+                                                <div class="mega-menu-content js-active">
+
+                                                    <!--====== Mega Menu Row ======-->
+                                                    <div class="row">
+                                                        <div class="col-lg-4">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Trắng</a>
+                                                                </li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Vàng</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Cam</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">ÁO TẤC</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Xanh</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Đỏ</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">GIAO LĨNH</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Xanh lá</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Xanh biển</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <!--====== End - Mega Menu Row ======-->
+                                                    <br>
+
+                                                    <!--====== Mega Menu Row ======-->
+                                                    <div class="row">
+
+                                                        <div class="mega-banner">
+
+                                                            <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-0.jpg" alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                    <!--====== End - Mega Menu Row ======-->
+                                                </div>
+                                                <!--====== End - Nam ======-->
+
+
+                                                <!--====== Nữ ======-->
+                                                <div class="mega-menu-content">
+
+                                                    <!--====== Mega Menu Row ======-->
+                                                    <div class="row">
+                                                        <div class="col-lg-6 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-1.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-2.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--====== End - Mega Menu Row ======-->
+                                                    <br>
+
+                                                    <!--====== Mega Menu Row ======-->
+                                                    <div class="row">
+                                                        <div class="col-lg-4">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Trắng</a>
+                                                                </li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Vàng</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Cam</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">ÁO TẤC</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Xanh</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Đỏ</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">GIAO LĨNH</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Xanh lá</a></li>
+                                                                <li>
+
+                                                                    <a href="shop-grid-left.html">Xanh biển</a></li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <!--====== End - Mega Menu Row ======-->
+
+
+                                                    <!--====== Mega Menu Row ======-->
+                                                    <div class="row">
+                                                        <div class="col-lg-9 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-3.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-4.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--====== End - Mega Menu Row ======-->
+                                                </div>
+                                                <!--====== End - Nữ ======-->
+
+
+                                                <!--====== Nhật Bình ======-->
+                                                <div class="mega-menu-content">
+
+                                                    <!--====== Mega Menu Row ======-->
+                                                    <div class="row">
+                                                        <div class="col-lg-4 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-5.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-6.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-7.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--====== End - Mega Menu Row ======-->
+                                                    <br>
+
+                                                    <!--====== Mega Menu Row ======-->
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Đỏ</a></li>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Đỏ đậm</a></li>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Vàng</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Cam</a></li>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Hồng đậm</a></li>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Hồng tươi</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Tím nhạt</a></li>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Tím đậm</a></li>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Đen</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <ul>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Trắng</a></li>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Xanh dương đậm</a></li>
+                                                                <li class="mega-list-title">
+
+                                                                    <a href="shop-grid-left.html">Xanh dương nhạt</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!--====== End - Mega Menu Row ======-->
+                                                    <br>
+
+
+
+                                                    <!--====== Mega Menu Row ======-->
+                                                    <div class="row">
+                                                        <div class="col-lg-6 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-8.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 mega-image">
+                                                            <div class="mega-banner">
+
+                                                                <a class="u-d-block" href="shop-grid-left.html">
+
+                                                                    <img class="u-img-fluid u-d-block" src="images/banners/banner-mega-9.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--====== End - Mega Menu Row ======-->
+                                                </div>
+                                                <!--====== End - Nhật Bình ======-->
+
+
+                                                <!--====== No Sub Categories ======-->
+                                                <div class="mega-menu-content">
+                                                    <h5>No Categories</h5>
+                                                </div>
+                                                <!--====== End - No Sub Categories ======-->
+
+
+                                                <!--====== No Sub Categories ======-->
+                                                <div class="mega-menu-content">
+                                                    <h5>No Categories</h5>
+                                                </div>
+                                                <!--====== End - No Sub Categories ======-->
+
+
+                                                <!--====== No Sub Categories ======-->
+                                                <div class="mega-menu-content">
+                                                    <h5>No Categories</h5>
+                                                </div>
+                                                <!--====== End - No Sub Categories ======-->
+
+
+                                                <!--====== No Sub Categories ======-->
+                                                <div class="mega-menu-content">
+                                                    <h5>No Categories</h5>
+                                                </div>
+                                                <!--====== End - No Sub Categories ======-->
+                                                <!--====== No Sub Categories ======-->
+                                                <div class="mega-menu-content">
+                                                    <h5>No Categories</h5>
+                                                </div>
+                                                <!--====== End - No Sub Categories ======-->
+                                                <!--====== No Sub Categories ======-->
+                                                <div class="mega-menu-content">
+                                                    <h5>No Categories</h5>
+                                                </div>
+                                                <!--====== End - No Sub Categories ======-->
+                                            </div>
+                                        </div>
+                                        <!--====== End - Mega Menu ======-->
+                                    </li>
+                                </ul>
+                                <!--====== End - List ======-->
+                            </div>
+                            <!--====== End - Menu ======-->
+
                         </div>
                         <!--====== End - Dropdown Main plugin ======-->
+
                         <!--====== Dropdown Main plugin ======-->
                         <div class="menu-init" id="navigation2">
 
@@ -210,7 +643,9 @@
                                     <li>
                                         <a href="index.html">TRANG CHỦ</a>
                                     </li>
-
+                                    <li>
+                                        <a href="about.html">VỀ CHÚNG TÔI</a>
+                                    </li>
                                     <li class="has-dropdown">
                                         <a href="shop-grid-left.html">CỬA HÀNG<i class="fas fa-angle-down u-s-m-l-6"></i></a>
 
@@ -219,34 +654,43 @@
                                         <ul style="width:170px">
 
                                             <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Đồng hồ nam</a>
+                                                <a href="shop-grid-left.html">Nam</a>
                                             </li>
 
                                             <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Đồng hồ nữ</a>
-
-
+                                                <a href="shop-grid-left.html">Nữ</a>
                                             </li>
-
                                             <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Đồng hồ đôi</a>
-
-
+                                                <a href="shop-grid-left.html">Nhật Bình</a>
                                             </li>
+                                            <li class="has-dropdown has-dropdown--ul-left-100">
+                                                <a href="shop-grid-left.html">Ngũ Thân</a>
+                                            </li>
+                                            <li class="has-dropdown has-dropdown--ul-left-100">
+                                                <a href="shop-grid-left.html">Áo Tấc</a>
+                                            </li>
+                                            <li class="has-dropdown has-dropdown--ul-left-100">
+                                                <a href="shop-grid-left.html">Bộ giáp</a>
+                                            </li>
+                                            <li class="has-dropdown has-dropdown--ul-left-100">
+                                                <a href="shop-grid-left.html">Phụ kiện</a>
+                                            </li>
+
+
+
                                         </ul>
                                         <!--====== End - Dropdown ======-->
                                     </li>
 
                                     <li>
-                                        <a href="#">BLOG</a>
+                                        <a href="blog-right-sidebar.html">BLOG</a>
                                     </li>
 
                                     <li>
-                                        <a href="#">GIỚI THIỆU</a>
+                                        <a href="contact.html">LIÊN HỆ</a>
                                     </li>
-
                                     <li>
-                                        <a href="checkout.html">THANH TOÁN</a>
+                                        <a href="faq.html">HỖ TRỢ</a>
                                     </li>
 
                                 </ul>
@@ -255,6 +699,7 @@
                             <!--====== End - Menu ======-->
                         </div>
                         <!--====== End - Dropdown Main plugin ======-->
+
                         <!--====== Dropdown Main plugin: đoạn code này dùng để thể hiện các biểu tượng wishlist; giỏ hàng và những nội dung liên quan đến biểu tương ======-->
                         <div class="menu-init" id="navigation3">
                             <button style="color:#7A0516;" class="btn btn--icon toggle-button toggle-button--white fas fa-shopping-bag toggle-button-shop" type="button"></button>
@@ -293,11 +738,11 @@
                                                         </div>
                                                         <div class="mini-product__info-wrapper">
                                                             <span class="mini-product__category">
-                                                                <a href="shop-grid-left.html ">Đồng hồ nam</a>
-                                                            </span>
+                                                                        <a href="shop-grid-left.html ">Nam</a>
+                                                                    </span>
                                                             <span class="mini-product__name">
-                                                                <a href="product-detail.html">ĐỒNG HỒ NAM TISSOT LE LOCLE POWERMATIC 80 OPEN HEART T006.407.11.033.02</a>
-                                                            </span>
+                                                                        <a href="product-detail.html">Nam TISSOT LE LOCLE POWERMATIC 80 OPEN HEART T006.407.11.033.02</a>
+                                                                    </span>
                                                             <span class="mini-product__quantity">1 x</span>
                                                             <span class="mini-product__price">21.897.000đ</span>
                                                         </div>
@@ -319,12 +764,12 @@
                                                         <div class="mini-product__info-wrapper">
 
                                                             <span class="mini-product__category">
-                                                                <a href="shop-grid-left.html">Đồng hồ nữ</a>
-                                                            </span>
+                                                                        <a href="shop-grid-left.html">Nữ</a>
+                                                                    </span>
 
                                                             <span class="mini-product__name">
-                                                                <a href="product-detail.html">ĐỒNG HỒ SKAGEN SKW2139</a>
-                                                            </span>
+                                                                        <a href="product-detail.html">ĐỒNG HỒ SKAGEN SKW2139</a>
+                                                                    </span>
 
                                                             <span class="mini-product__quantity">1 x</span>
 
@@ -338,39 +783,7 @@
 
                                                 </div>
                                                 <!--====== End - Card for mini cart ======-->
-                                                <!--====== Card for mini cart: Sản phẩm thứ 3 trong giỏ hàng ======-->
-                                                <div class="card-mini-product">
-                                                    <div class="mini-product">
 
-                                                        <div class="mini-product__image-wrapper">
-
-                                                            <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/women/product8.jpg" alt="">
-                                                            </a>
-
-                                                        </div>
-
-                                                        <div class="mini-product__info-wrapper">
-
-                                                            <span class="mini-product__category">
-                                                                <a href="shop-grid-left.html">Đồng hồ đôi</a>
-                                                            </span>
-
-                                                            <span class="mini-product__name">
-                                                                <a href="product-detail.html">ĐỒNG HỒ ĐÔI OLYM PIANUS OP130-06MK-GL-T VÀ OP130-06LK-GL-T</a>
-                                                            </span>
-
-                                                            <span class="mini-product__quantity">1 x</span>
-
-                                                            <span class="mini-product__price">4.446.000đ</span>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                    <a class="mini-product__delete-link far fa-trash-alt"></a>
-
-                                                </div>
 
                                                 <!--Xóa sản phẩm ra khỏi giỏ hàng-->
                                                 <script>
@@ -392,9 +805,9 @@
                                                     });
                                                 </script>
                                                 <!--====== Kết thúc giỏ hàng mini  ======-->
-                                                <!--====== Kết thúc giỏ hàng mini  ======-->
                                             </div>
                                             <!--====== End - Mini Product Container ======-->
+
                                             <!--====== Mini Product Statistics: Thống kê giỏ hàng mini ======-->
                                             <div class="mini-product-stat">
 
@@ -562,7 +975,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
                             <div class="outer-footer__content u-s-m-b-40">
-                                <!--Hiển thị các thông tin để khách hàng có thể liên hệ với Chiêu Minh Các Concept-->
+                                <!--Hiển thị các thông tin để khách hàng có thể liên hệ với Chiêu Minh Các - 昭明閣-->
                                 <span class="outer-footer__content-title">Liên hệ với chúng tôi</span>
 
                                 <div class="outer-footer__text-wrap">
@@ -577,7 +990,7 @@
 
                                 <div class="outer-footer__text-wrap">
                                     <i class="far fa-envelope"></i>
-                                    <span>chieuminhcac-concept</span>
+                                    <span>chieuminhcac</span>
                                 </div>
 
                                 <div class="outer-footer__social">
@@ -640,7 +1053,7 @@
                                     <div class="outer-footer__content u-s-m-b-40">
                                         <div class="outer-footer__list-wrap">
 
-                                            <span class="outer-footer__content-title">Chiêu Minh Các Concept</span>
+                                            <span class="outer-footer__content-title">Chiêu Minh Các - 昭明閣</span>
                                             <ul>
                                                 <li>
 
@@ -700,7 +1113,7 @@
                             <div class="lower-footer__content">
                                 <div class="lower-footer__copyright">
                                     <span>Copyright © 2023</span>
-                                    <a href="index.html" style="color: white">Chiêu Minh Các Concept</a>
+                                    <a href="index.html" style="color: white">Chiêu Minh Các - 昭明閣</a>
                                     <span>Bảo lưu mọi bản quyền</span>
                                 </div>
                                 <div>
