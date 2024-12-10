@@ -59,13 +59,13 @@
 
         <!--====== Main Header ======-->
         <!-- <header class="...">: áp dụng định dạng của class ... cho thẻ header; header là thẻ định nghĩa header của trang-->
-        <header class="header--style-2">
+        <header class="header--style-1">
             <div class="top-banner">
                 <p id="banner-text">CHÀO MỪNG GIÁNG SINH - GIẢM GIÁ 20% TẤT CẢ CÁC SẢN PHẨM CỦA CHIÊU MINH CÁC - 昭明閣</p>
             </div>
             <!--====== Nav 1 (dòng header đầu tiên) ======-->
             <!-- <nav class="...">: áp dụng định dạng của class ... cho thẻ nav; thẻ nav được sử dụng để định nghĩa thanh menu hoặc các liên kết điều hướng quan trọng trên một trang/website -->
-            <nav class="primary-nav-wrapper">
+            <nav class="primary-nav primary-nav-wrapper">
                 <div class="container">
 
                     <!--====== Primary Nav ======-->
@@ -77,7 +77,7 @@
                         <!--thẻ <a> được dùng để xác định một liên kết; liên kết đó được chỉnh định trong thuộc tính href trong thẻ a-->
                         <a class="main-logo" href="index.html">
                             <!-- khi người dùng nhấp vào hình ảnh thì nó sẽ được chuyển hướng đến trang được chỉnh định trong thuộc tính href của thẻ a-->
-                            <img src="images/preloader.png" alt="">
+                            <img src="images/logo/logo.png" alt="">
                         </a>
                         <!--====== End - Main Logo ======-->
                         <!--====== Search Form: đoạn code này dùng để thể hiện nội dung của thanh tìm kiếm ======-->
@@ -197,12 +197,12 @@
                         <!--====== Dropdown Main plugin: dòng code này nhằm mục đích để thanh menu trang chủ, cửa hàng,... được đẩy vào giữa ======-->
                         <!--======Tạo responsive design cho header-->
                         <div class="menu-init" id="navigation1">
-                            <button style="background-color: #7A0516;" class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
+                            <button class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
 
                             <!--====== Menu ======-->
                             <div class="ah-lg-mode">
 
-                                <span class="ah-close">✕ Close</span>
+                                 <span class="ah-close">✕ Đóng</span>
 
                                 <!--====== List ======-->
                                 <ul class="ah-list">
@@ -217,20 +217,6 @@
                                             <div class="mega-menu-wrap">
                                                 <div class="mega-menu-list">
                                                     <ul>
-                                                        <li class="js-active">
-
-                                                            <a href="shop-grid-left.html"><i class="fas fa-male u-s-m-r-6"></i>
-    
-                                                                    <span>Nam</span></a>
-
-                                                            <span class="js-menu-toggle js-toggle-mark"></span></li>
-                                                        <li>
-
-                                                            <a href="shop-grid-left.html"><i class="fas fa-female u-s-m-r-6"></i>
-    
-                                                                    <span>Nữ</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
                                                         <li>
 
                                                             <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i></i>
@@ -238,20 +224,7 @@
                                                                     <span>Nhật Bình</span></a>
 
                                                             <span class="js-menu-toggle"></span></li>
-                                                        <li>
 
-                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
-    
-                                                                    <span>Ngũ thân tay chẽn</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
-                                                        <li>
-
-                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
-    
-                                                                    <span>Ngũ thân tay thụng</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
                                                         <li>
 
                                                             <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
@@ -292,7 +265,7 @@
                                                             <ul>
                                                                 <li class="mega-list-title">
 
-                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                    <a href="shop-grid-left.html">NHẬT BÌNH</a></li>
                                                                 <li>
 
                                                                     <a href="shop-grid-left.html">Trắng</a>
@@ -385,7 +358,7 @@
                                                             <ul>
                                                                 <li class="mega-list-title">
 
-                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                    <a href="shop-grid-left.html">NHẬT BÌNH</a></li>
                                                                 <li>
 
                                                                     <a href="shop-grid-left.html">Trắng</a>
@@ -628,7 +601,7 @@
                         <!--====== Dropdown Main plugin ======-->
                         <div class="menu-init" id="navigation2">
 
-                            <button style="color:#7A0516;" class="btn btn--icon toggle-button toggle-button--white fas fa-bars" type="button"></button>
+                            <button style="color:#ffca3d;" class="btn btn--icon toggle-button toggle-button--white " type="button"><i class="fas fa-bars"></i></button>
                             <!--====== Menu ======-->
                             <div class="ah-lg-mode">
                                 <span class="ah-close">X Đóng</span>
@@ -648,19 +621,8 @@
                                         <!--====== Dropdown ======-->
                                         <span class="js-menu-toggle"></span>
                                         <ul style="width:170px">
-
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Nam</a>
-                                            </li>
-
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Nữ</a>
-                                            </li>
                                             <li class="has-dropdown has-dropdown--ul-left-100">
                                                 <a href="shop-grid-left.html">Nhật Bình</a>
-                                            </li>
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Ngũ Thân</a>
                                             </li>
                                             <li class="has-dropdown has-dropdown--ul-left-100">
                                                 <a href="shop-grid-left.html">Áo Tấc</a>
@@ -729,18 +691,18 @@
                                                     <div class="mini-product">
                                                         <div class="mini-product__image-wrapper">
                                                             <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/electronic/product3.jpg" alt="">
+                                                                <img class="u-img-fluid" src="images/product/Nữ/1. Nhật Bình Vàng.jpg" alt="">
                                                             </a>
                                                         </div>
                                                         <div class="mini-product__info-wrapper">
                                                             <span class="mini-product__category">
-                                                                    <a href="shop-grid-left.html ">Nam</a>
-                                                                </span>
+                                                                <a href="shop-grid-left.html ">Nhật Bình</a>
+                                                            </span>
                                                             <span class="mini-product__name">
-                                                                    <a href="product-detail.html">Nam TISSOT LE LOCLE POWERMATIC 80 OPEN HEART T006.407.11.033.02</a>
-                                                                </span>
+                                                                <a href="product-detail.html">Nhật Bình Hoàng Hậu</a>
+                                                            </span>
                                                             <span class="mini-product__quantity">1 x</span>
-                                                            <span class="mini-product__price">21.897.000đ</span>
+                                                            <span class="mini-product__price">7.800.000đ</span>
                                                         </div>
                                                     </div>
                                                     <a class="mini-product__delete-link far fa-trash-alt"></a>
@@ -753,23 +715,23 @@
 
                                                         <div class="mini-product__image-wrapper">
                                                             <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/electronic/product18.jpg" alt="">
+                                                                <img class="u-img-fluid" src="images/product/Nữ/Ngũ thân tay chẽn trắng.jpg" alt="">
                                                             </a>
                                                         </div>
 
                                                         <div class="mini-product__info-wrapper">
 
                                                             <span class="mini-product__category">
-                                                                    <a href="shop-grid-left.html">Nữ</a>
-                                                                </span>
+                                                                <a href="shop-grid-left.html">Áo tấc</a>
+                                                            </span>
 
                                                             <span class="mini-product__name">
-                                                                    <a href="product-detail.html">ĐỒNG HỒ SKAGEN SKW2139</a>
-                                                                </span>
+                                                                <a href="product-detail.html">Áo tấc Nữ trắng</a>
+                                                            </span>
 
                                                             <span class="mini-product__quantity">1 x</span>
 
-                                                            <span class="mini-product__price">2.175.000đ</span>
+                                                            <span class="mini-product__price">2.800.000đ</span>
 
                                                         </div>
 
@@ -810,7 +772,7 @@
                                                 <div class="mini-total">
 
                                                     <span class="subtotal-text">TỔNG GIỎ HÀNG</span>
-                                                    <span class="subtotal-value">28.518.000đ</span>
+                                                    <span class="subtotal-value">10.600.000đ</span>
                                                 </div>
                                                 <div class="mini-action">
 
@@ -872,66 +834,58 @@
                                                                 <!--href="#" dùng để thể hiện liên kết đến vị trí trong trang hiện tại-->
                                                                 <!--====== Danh mục Nữ =====-->
                                                                 <!--href="#" dùng để thể hiện liên kết đến vị trí trong trang hiện tại-->
-                                                                <a href="#">Nữ</a>
-                                                                <!--Dấu cộng (fa-plus) lấy từ Font Awesome, nhấn vào sẽ hiện ra data-target-->
-                                                                <span class="js-shop-category-span fas fa-plus u-s-m-l-6"></span>
-                                                                <!--===== Các danh mục con trong Laptop Gaming ======-->
-                                                                <ul>
-                                                                    <li>
-
-                                                                        <a href="#">Nhà Lý - Trần</a></li>
-                                                                    <li>
-
-                                                                        <a href="#">Thời Hậu Lê</a></li>
-                                                                    <li>
-
-                                                                        <a href="#">Thời Nguyễn</a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="has-list">
-                                                                <a href="#">Nam</a>
-                                                                <!--Dấu cộng (fa-plus) lấy từ Font Awesome, nhấn vào sẽ hiện ra data-target-->
-                                                                <span class="js-shop-category-span fas fa-plus u-s-m-l-6"></span>
-                                                                <!--===== Các danh mục con trong Laptop Gaming ======-->
-                                                                <ul>
-                                                                    <li>
-
-                                                                        <a href="#">Nhà Lý - Trần</a></li>
-                                                                    <li>
-
-                                                                        <a href="#">Thời Hậu Lê</a></li>
-                                                                    <li>
-
-                                                                        <a href="#">Thời Nguyễn</a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="has-list">
                                                                 <a href="#">Nhật Bình</a>
                                                                 <span class="category-list__text u-s-m-l-6"></span>
                                                             </li>
                                                             <li class="has-list">
-                                                                <a href="#">Ngũ thân tay chẽn</a>
-                                                                <span class="category-list__text u-s-m-l-6"></span>
-                                                            </li>
-                                                            <li class="has-list">
-                                                                <a href="#">Ngũ thân tay thụng</a>
-                                                                <span class="category-list__text u-s-m-l-6"></span>
-                                                            </li>
-                                                            <li class="has-list">
-                                                                <a href="#">Áo Tấc</a>
-                                                                <span class="category-list__text u-s-m-l-6"></span>
+                                                                <a href="#">Áo tấc</a>
+                                                                <!--Dấu cộng (fa-plus) lấy từ Font Awesome, nhấn vào sẽ hiện ra data-target-->
+                                                                <span class="js-shop-category-span fas fa-plus u-s-m-l-6"></span>
+                                                                <!--===== Các danh mục con ======-->
+                                                                <ul>
+                                                                    <li>
+
+                                                                        <a href="#">Nam</a></li>
+                                                                    <li>
+
+                                                                        <a href="#">Nữ</a></li>
+                                                                </ul>
                                                             </li>
                                                             <li class="has-list">
                                                                 <a href="#">Bộ giáp</a>
-                                                                <span class="category-list__text u-s-m-l-6"></span>
+                                                                <span class="js-shop-category-span fas fa-plus u-s-m-l-6"></span>
+                                                                <ul>
+                                                                    <li>
+
+                                                                        <a href="#">Nam</a></li>
+                                                                    <li>
+
+                                                                        <a href="#">Nữ</a></li>
+                                                                </ul>
                                                             </li>
                                                             <li class="has-list">
                                                                 <a href="#">Phụ kiện</a>
-                                                                <span class="category-list__text u-s-m-l-6"></span>
+                                                                <span class="js-shop-category-span fas fa-plus u-s-m-l-6"></span>
+                                                                <ul>
+                                                                    <li>
+
+                                                                        <a href="#">Nam</a></li>
+                                                                    <li>
+
+                                                                        <a href="#">Nữ</a></li>
+                                                                </ul>
                                                             </li>
                                                             <li class="has-list">
                                                                 <a href="#">Khác</a>
-                                                                <span class="category-list__text u-s-m-l-6"></span>
+                                                                <span class="js-shop-category-span fas fa-plus u-s-m-l-6"></span>
+                                                                <ul>
+                                                                    <li>
+
+                                                                        <a href="#">Giao lĩnh</a></li>
+                                                                    <li>
+
+                                                                        <a href="#">Viên lĩnh</a></li>
+                                                                </ul>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -1135,12 +1089,12 @@
                                             }
 
                                             function UpdatePriceRange(range, rangeInput, rangePrice, minOffset) {
-                                                const minRange = parseInt(rangeInput[0] ? .value || 0); // Lấy giá trị tối thiểu từ Input
-                                                const maxRange = parseInt(rangeInput[1] ? .value || 0); // Lấy giá trị tối đa từ input
+                                                const minRange = parseInt(rangeInput[0] ?.value || 0); // Lấy giá trị tối thiểu từ Input
+                                                const maxRange = parseInt(rangeInput[1] ?.value || 0); // Lấy giá trị tối đa từ input
 
                                                 // Kiểm tra khoảng cách giữa giá trị tối thiểu và tối đa
                                                 if (maxRange - minRange < rangeMin) {
-                                                    if (event.target ? .classList.contains('min')) {
+                                                    if (event.target ?.classList.contains('min')) {
                                                         rangeInput[0].value = maxRange - rangeMin;
                                                     } else {
                                                         rangeInput[1].value = minRange + rangeMin;
@@ -1327,6 +1281,7 @@
 
                                                     <img class="aspect__img" id="nu1" src="images/product/Nữ/Giáp 1.jpg" alt="" onmouseover="overimg1()" onmouseout="outimg1()">
                                                     <!-- hình ảnh sản phẩm -->
+                                                    <div class="sale-badge">Sale!</div>
                                                 </a>
                                                 <script>
                                                     function overimg1() {
@@ -1367,8 +1322,13 @@
                                                     <span class="product-m__review">(5)</span>
                                                     <!--số lượng người đánh giá-->
                                                 </div>
-                                                <div class="product-m__price">4.672.000₫</div>
+                                                <div class="product-m__price">4.672.000₫
+
+                                                    <span class="product-m__discount">5.980.000₫</span>
+
+                                                </div>
                                                 <!--giá sản phẩm-->
+
                                                 <div class="product-m__hover">
                                                     <!--hiệu ứng hover vào sản phẩm sẽ hiển thị thông tin chi tiết của sản phẩm-->
                                                     <div class="product-m__preview-description">
@@ -1470,11 +1430,11 @@
                                             <div class="product-m__content">
                                                 <div class="product-m__category">
 
-                                                    <a href="shop-grid-left.html">Ngũ thân tay chẽn</a>
+                                                    <a href="shop-grid-left.html">Áo tấc</a>
                                                 </div>
                                                 <div class="product-m__name">
 
-                                                    <a href="product-detail.html">Ngũ thân tay chẽn Nữ Trắng</a>
+                                                    <a href="product-detail.html">Áo tấc Nữ Trắng</a>
                                                 </div>
                                                 <div class="product-m__rating gl-rating-style">
                                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
@@ -1527,11 +1487,11 @@
                                             <div class="product-m__content">
                                                 <div class="product-m__category">
 
-                                                    <a href="shop-grid-left.html">Ngũ thân tay thụng</a>
+                                                    <a href="shop-grid-left.html">Áo tấc</a>
                                                 </div>
                                                 <div class="product-m__name">
 
-                                                    <a href="product-detail.html">Ngũ thân tay thụng Nữ Xanh Sáng</a>
+                                                    <a href="product-detail.html">Áo tấc Nữ Xanh Sáng</a>
                                                 </div>
                                                 <div class="product-m__rating gl-rating-style">
                                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
@@ -1561,6 +1521,7 @@
                                                 <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail.html">
 
                                                     <img class="aspect__img" id="nu5" src="images/product/Nam/Áo Tấc.jpg" alt="" onmousemove="overimg5()" onmouseout="outimg5()">
+                                                    <div class="sale-badge">Sale!</div>
                                                 </a>
                                                 <script>
                                                     function overimg5() {
@@ -1584,11 +1545,11 @@
                                             <div class="product-m__content">
                                                 <div class="product-m__category">
 
-                                                    <a href="shop-grid-left.html">Ngũ thân tay thụng</a>
+                                                    <a href="shop-grid-left.html">Áo tấc</a>
                                                 </div>
                                                 <div class="product-m__name">
 
-                                                    <a href="product-detail.html">Ngũ thân tay thụng Nam Xanh Đậm</a>
+                                                    <a href="product-detail.html">Áo tấc Nam Xanh Đậm</a>
                                                 </div>
                                                 <div class="product-m__rating gl-rating-style">
                                                     <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
@@ -1596,7 +1557,10 @@
 
                                                     <span class="product-m__review">(0)</span>
                                                 </div>
-                                                <div class="product-m__price">2.700.000₫</div>
+                                                <div class="product-m__price">2.700.000₫
+                                                    <span class="product-m__discount">3.300.000₫</span>
+
+                                                </div>
                                                 <div class="product-m__hover">
                                                     <div class="product-m__preview-description">
 
@@ -1735,6 +1699,7 @@
                                                 <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail.html">
 
                                                     <img class="aspect__img" id="nu8" src="images/product/Nữ/Thầy bùa.jpg" alt="" onmousemove="overimg8()" onmouseout="outimg8()">
+                                                    <div class="sale-badge">Sale!</div>
                                                 </a>
                                                 <script>
                                                     function overimg8() {
@@ -1796,6 +1761,8 @@
                                                 <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail.html">
 
                                                     <img class="aspect__img" id="nu9" src="images/product/Phụ kiện/Kim bài 1.jpg" alt="" onmousemove="overimg9()" onmouseout="outimg9()">
+                                                    <div class="sale-badge">Sale!</div>
+
                                                 </a>
                                                 <script>
                                                     function overimg9() {
@@ -1857,6 +1824,7 @@
                                                 <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail.html">
 
                                                     <img class="aspect__img" id="nu10" src="images/product/Phụ kiện/Kim Bội.jpg" alt="" onmousemove="overimg10()" onmouseout="outimg10()">
+                                                    <div class="sale-badge">Sale!</div>
                                                 </a>
                                                 <script>
                                                     function overimg10() {
@@ -1893,6 +1861,7 @@
                                                 </div>
                                                 <div class="product-m__price">
                                                     250.000₫
+                                                    <span class="product-m__discount">300.000₫</span>
                                                 </div>
                                                 <div class="product-m__hover">
                                                     <div class="product-m__preview-description">
@@ -1974,6 +1943,7 @@
                                                 <a class="aspect aspect--bg-grey aspect--square u-d-block" href="product-detail.html">
 
                                                     <img class="aspect__img" id="nu12" src="images/product/Phụ kiện/Kim khánh 1.jpg" alt="" onmousemove="overimg12()" onmouseout="outimg12()">
+                                                    <div class="sale-badge">Sale!</div>
                                                 </a>
                                                 <script>
                                                     function overimg12() {
@@ -2226,7 +2196,7 @@
                     <div class="col-lg-12">
                         <div class="lower-footer__content">
                             <div class="lower-footer__copyright">
-                                <span>Copyright © 2023</span>
+                                <span>Copyright © 2024</span>
                                 <a href="index.html" style="color: white">Chiêu Minh Các - 昭明閣</a>
                                 <span>Bảo lưu mọi bản quyền</span>
                             </div>

@@ -59,13 +59,13 @@
 
         <!--====== Main Header ======-->
         <!-- <header class="...">: áp dụng định dạng của class ... cho thẻ header; header là thẻ định nghĩa header của trang-->
-        <header class="header--style-2">
+        <header class="header--style-1">
             <div class="top-banner">
                 <p id="banner-text">CHÀO MỪNG GIÁNG SINH - GIẢM GIÁ 20% TẤT CẢ CÁC SẢN PHẨM CỦA CHIÊU MINH CÁC - 昭明閣</p>
             </div>
             <!--====== Nav 1 (dòng header đầu tiên) ======-->
             <!-- <nav class="...">: áp dụng định dạng của class ... cho thẻ nav; thẻ nav được sử dụng để định nghĩa thanh menu hoặc các liên kết điều hướng quan trọng trên một trang/website -->
-            <nav class="primary-nav-wrapper">
+            <nav class="primary-nav primary-nav-wrapper">
                 <div class="container">
 
                     <!--====== Primary Nav ======-->
@@ -77,7 +77,7 @@
                         <!--thẻ <a> được dùng để xác định một liên kết; liên kết đó được chỉnh định trong thuộc tính href trong thẻ a-->
                         <a class="main-logo" href="index.html">
                             <!-- khi người dùng nhấp vào hình ảnh thì nó sẽ được chuyển hướng đến trang được chỉnh định trong thuộc tính href của thẻ a-->
-                            <img src="images/preloader.png" alt="">
+                            <img src="images/logo/logo.png" alt="">
                         </a>
                         <!--====== End - Main Logo ======-->
                         <!--====== Search Form: đoạn code này dùng để thể hiện nội dung của thanh tìm kiếm ======-->
@@ -197,12 +197,12 @@
                         <!--====== Dropdown Main plugin: dòng code này nhằm mục đích để thanh menu trang chủ, cửa hàng,... được đẩy vào giữa ======-->
                         <!--======Tạo responsive design cho header-->
                         <div class="menu-init" id="navigation1">
-                            <button style="background-color: #7A0516;" class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
+                            <button class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
 
                             <!--====== Menu ======-->
                             <div class="ah-lg-mode">
 
-                                <span class="ah-close">✕ Close</span>
+                                 <span class="ah-close">✕ Đóng</span>
 
                                 <!--====== List ======-->
                                 <ul class="ah-list">
@@ -217,20 +217,6 @@
                                             <div class="mega-menu-wrap">
                                                 <div class="mega-menu-list">
                                                     <ul>
-                                                        <li class="js-active">
-
-                                                            <a href="shop-grid-left.html"><i class="fas fa-male u-s-m-r-6"></i>
-    
-                                                                    <span>Nam</span></a>
-
-                                                            <span class="js-menu-toggle js-toggle-mark"></span></li>
-                                                        <li>
-
-                                                            <a href="shop-grid-left.html"><i class="fas fa-female u-s-m-r-6"></i>
-    
-                                                                    <span>Nữ</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
                                                         <li>
 
                                                             <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i></i>
@@ -238,20 +224,7 @@
                                                                     <span>Nhật Bình</span></a>
 
                                                             <span class="js-menu-toggle"></span></li>
-                                                        <li>
 
-                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
-    
-                                                                    <span>Ngũ thân tay chẽn</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
-                                                        <li>
-
-                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
-    
-                                                                    <span>Ngũ thân tay thụng</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
                                                         <li>
 
                                                             <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
@@ -292,7 +265,7 @@
                                                             <ul>
                                                                 <li class="mega-list-title">
 
-                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                    <a href="shop-grid-left.html">NHẬT BÌNH</a></li>
                                                                 <li>
 
                                                                     <a href="shop-grid-left.html">Trắng</a>
@@ -385,7 +358,7 @@
                                                             <ul>
                                                                 <li class="mega-list-title">
 
-                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                    <a href="shop-grid-left.html">NHẬT BÌNH</a></li>
                                                                 <li>
 
                                                                     <a href="shop-grid-left.html">Trắng</a>
@@ -628,7 +601,7 @@
                         <!--====== Dropdown Main plugin ======-->
                         <div class="menu-init" id="navigation2">
 
-                            <button style="color:#7A0516;" class="btn btn--icon toggle-button toggle-button--white fas fa-bars" type="button"></button>
+                            <button style="color:#ffca3d;" class="btn btn--icon toggle-button toggle-button--white " type="button"><i class="fas fa-bars"></i></button>
                             <!--====== Menu ======-->
                             <div class="ah-lg-mode">
                                 <span class="ah-close">X Đóng</span>
@@ -648,19 +621,8 @@
                                         <!--====== Dropdown ======-->
                                         <span class="js-menu-toggle"></span>
                                         <ul style="width:170px">
-
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Nam</a>
-                                            </li>
-
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Nữ</a>
-                                            </li>
                                             <li class="has-dropdown has-dropdown--ul-left-100">
                                                 <a href="shop-grid-left.html">Nhật Bình</a>
-                                            </li>
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Ngũ Thân</a>
                                             </li>
                                             <li class="has-dropdown has-dropdown--ul-left-100">
                                                 <a href="shop-grid-left.html">Áo Tấc</a>
@@ -729,18 +691,18 @@
                                                     <div class="mini-product">
                                                         <div class="mini-product__image-wrapper">
                                                             <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/electronic/product3.jpg" alt="">
+                                                                <img class="u-img-fluid" src="images/product/Nữ/1. Nhật Bình Vàng.jpg" alt="">
                                                             </a>
                                                         </div>
                                                         <div class="mini-product__info-wrapper">
                                                             <span class="mini-product__category">
-                                                                    <a href="shop-grid-left.html ">Nam</a>
-                                                                </span>
+                                                                <a href="shop-grid-left.html ">Nhật Bình</a>
+                                                            </span>
                                                             <span class="mini-product__name">
-                                                                    <a href="product-detail.html">Nam TISSOT LE LOCLE POWERMATIC 80 OPEN HEART T006.407.11.033.02</a>
-                                                                </span>
+                                                                <a href="product-detail.html">Nhật Bình Hoàng Hậu</a>
+                                                            </span>
                                                             <span class="mini-product__quantity">1 x</span>
-                                                            <span class="mini-product__price">21.897.000đ</span>
+                                                            <span class="mini-product__price">7.800.000đ</span>
                                                         </div>
                                                     </div>
                                                     <a class="mini-product__delete-link far fa-trash-alt"></a>
@@ -753,23 +715,23 @@
 
                                                         <div class="mini-product__image-wrapper">
                                                             <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/electronic/product18.jpg" alt="">
+                                                                <img class="u-img-fluid" src="images/product/Nữ/Ngũ thân tay chẽn trắng.jpg" alt="">
                                                             </a>
                                                         </div>
 
                                                         <div class="mini-product__info-wrapper">
 
                                                             <span class="mini-product__category">
-                                                                    <a href="shop-grid-left.html">Nữ</a>
-                                                                </span>
+                                                                <a href="shop-grid-left.html">Áo tấc</a>
+                                                            </span>
 
                                                             <span class="mini-product__name">
-                                                                    <a href="product-detail.html">ĐỒNG HỒ SKAGEN SKW2139</a>
-                                                                </span>
+                                                                <a href="product-detail.html">Áo tấc Nữ trắng</a>
+                                                            </span>
 
                                                             <span class="mini-product__quantity">1 x</span>
 
-                                                            <span class="mini-product__price">2.175.000đ</span>
+                                                            <span class="mini-product__price">2.800.000đ</span>
 
                                                         </div>
 
@@ -810,7 +772,7 @@
                                                 <div class="mini-total">
 
                                                     <span class="subtotal-text">TỔNG GIỎ HÀNG</span>
-                                                    <span class="subtotal-value">28.518.000đ</span>
+                                                    <span class="subtotal-value">10.600.000đ</span>
                                                 </div>
                                                 <div class="mini-action">
 
@@ -879,13 +841,13 @@
                                     <!-- Câu hỏi và câu trả lời dưới dạng dropdown  -->
                                     <div class="faq__list">
 
-                                        <a class="faq__question collapsed" href="#faq-1" data-toggle="collapse" id="question1">Làm cách nào để tôi nhận được mã giảm giá từ Retrodx ?</a>
+                                        <a class="faq__question collapsed" href="#faq-1" data-toggle="collapse" id="question1">Làm cách nào để tôi nhận được mã giảm giá từ Chiêu Minh Các ?</a>
                                         <div class="faq__answer collapse" id="faq-1" data-parent="#faq-accordion-group">
-                                            <p class="faq__text">Để nhận được mã giảm giá từ Retrodx, hãy thực hiện các bước sau:</p>
-                                            <p class="faq__text"><strong>1. Trở thành thành viên của Retrodx:</strong> Điền thông tin của bạn tại mục "Đăng kí thành viên" ở cuối trang, sau đó nhấn nút "Đăng kí".</p>
+                                            <p class="faq__text">Để nhận được mã giảm giá từ Chiêu Minh Các, hãy thực hiện các bước sau:</p>
+                                            <p class="faq__text"><strong>1. Trở thành thành viên của Chiêu Minh Các:</strong> Điền thông tin của bạn tại mục "Đăng kí thành viên" ở cuối trang, sau đó nhấn nút "Đăng kí".</p>
                                             <!-- Ảnh chụp màn hình hướng dẫn Đăng kí thành viên -->
                                             <img src="images/DangKiThanhVien_HoTro.png" alt="" style="margin-left:30px">
-                                            <p class="faq__text"><strong>2. Chờ đợi thông báo từ chúng tôi:</strong> Mã giảm giá sẽ được đính kèm tại các sự kiện giảm giá tiếp theo và Retrodx sẽ email thông báo đến bạn.</p>
+                                            <p class="faq__text"><strong>2. Chờ đợi thông báo từ chúng tôi:</strong> Mã giảm giá sẽ được đính kèm tại các sự kiện giảm giá tiếp theo và Chiêu Minh Các sẽ email thông báo đến bạn.</p>
                                         </div>
                                     </div>
 
@@ -908,8 +870,8 @@
                                         <a class="faq__question collapsed" href="#faq-3" data-toggle="collapse" id="question3">Phí vận chuyển được tính như thế nào ?</a>
                                         <div class="faq__answer collapse" id="faq-3" data-parent="#faq-accordion-group">
                                             <p class="faq__text">Chi phí vận chuyển của một đơn hàng được tính dựa trên <strong> 2 yếu tố:</strong></p>
-                                            <p class="faq__text">1. Tổng khối lượng của đơn hàng: được tính dựa trên khối lượng sản phẩm mà Retrodx đã tạo lập</p>
-                                            <p class="faq__text">2. Khoảng cách giữa cửa hàng Retrodx và Người mua: được tính dựa trên địa chỉ lấy hàng mặc định của Retrodx và địa chỉ nhận hàng của Người mua</p>
+                                            <p class="faq__text">1. Tổng khối lượng của đơn hàng: được tính dựa trên khối lượng sản phẩm mà Chiêu Minh Các đã tạo lập</p>
+                                            <p class="faq__text">2. Khoảng cách giữa cửa hàng Chiêu Minh Các và Người mua: được tính dựa trên địa chỉ lấy hàng mặc định của Chiêu Minh Các và địa chỉ nhận hàng của Người mua</p>
                                         </div>
                                     </div>
 
@@ -922,11 +884,11 @@
                                             <p class="faq__text">Phương thức thanh toán thẻ tín dụng/ghi nợ chỉ áp dụng cho đơn hàng có giá trị thanh toán (bao gồm phí vận chuyển và các chi phí phát sinh khác) từ<strong> 100.000 đồng trở lên</strong>. Trong trường hợp bạn
                                                 không thể thanh toán, vui lòng mua sắm thêm hoặc chọn phương thức khác</p>
                                             <p class="faq__text"><strong>2. Chức năng giới hạn của hệ thống</strong></p>
-                                            <p class="faq__text">a. Thẻ của bạn đã đạt tới những giới hạn quy định của Retrodx. Trong trường hợp này, vui lòng chọn hình thức thanh toán khác để hoàn tất việc mua sắm</p>
+                                            <p class="faq__text">a. Thẻ của bạn đã đạt tới những giới hạn quy định của Chiêu Minh Các. Trong trường hợp này, vui lòng chọn hình thức thanh toán khác để hoàn tất việc mua sắm</p>
                                             <p class="faq__text">b. Sản phẩm bạn chọn mua không được thiết lập phương thức thanh toán thẻ tín dụng/ghi nợ</p>
                                             <p class="faq__text"><strong>3. Các vấn đề liên quan đến thẻ của bạn</strong></p>
-                                            <p class="faq__text">a. Nếu thẻ của bạn đã từng vi phạm các điều lệ thanh toán của các tổ chức thẻ quốc tế/ngân hàng phát hành thẻ, trong một số trường hợp, Retrodx sẽ từ chối nhận thanh toán từ các thẻ trên để đảm bảo an toàn thanh
-                                                toán cho Người bán và chủ thẻ</p>
+                                            <p class="faq__text">a. Nếu thẻ của bạn đã từng vi phạm các điều lệ thanh toán của các tổ chức thẻ quốc tế/ngân hàng phát hành thẻ, trong một số trường hợp, Chiêu Minh Các sẽ từ chối nhận thanh toán từ các thẻ trên để đảm bảo an
+                                                toàn thanh toán cho Người bán và chủ thẻ</p>
                                             <p class="faq__text">b. Bạn vui lòng lựa chọn hình thức thanh toán khác như thanh toán khi nhận hàng (COD) để tiếp tục đặt hàng</p>
                                         </div>
                                     </div>
@@ -934,9 +896,9 @@
                                     <!-- Câu hỏi 5 -->
                                     <div class="faq__list">
 
-                                        <a class="faq__question collapsed" href="#faq-5" data-toggle="collapse" id="question5">Xuất hoá đơn Điện Tử/hoá đơn VAT cho đơn hàng Retrodx ?</a>
+                                        <a class="faq__question collapsed" href="#faq-5" data-toggle="collapse" id="question5">Xuất hoá đơn Điện Tử/hoá đơn VAT cho đơn hàng Chiêu Minh Các ?</a>
                                         <div class="faq__answer collapse" id="faq-5" data-parent="#faq-accordion-group">
-                                            <p class="faq__text">Khi mua đơn hàng thành công tại trang Retrodx, Người mua có thể yêu cầu xuất<strong> Hóa đơn điện tử/Hóa đơn VAT</strong> (theo 1 trong 2 hình thức: Cá nhân hoặc công ty) cụ thể như sau:</p>
+                                            <p class="faq__text">Khi mua đơn hàng thành công tại trang Chiêu Minh Các, Người mua có thể yêu cầu xuất<strong> Hóa đơn điện tử/Hóa đơn VAT</strong> (theo 1 trong 2 hình thức: Cá nhân hoặc công ty) cụ thể như sau:</p>
                                             <p class="faq__text">Để gửi yêu cầu xuất <strong>hóa đơn điện tử VAT</strong> trực tiếp trên ứng dụng Shopee, bạn vui lòng thực hiện theo các bước hướng dẫn<span style="text-decoration: underline; color: blue;"> tại đây</span></p>
 
                                         </div>
@@ -957,6 +919,9 @@
         <!-- CSS -->
         <!-- Đổi màu nền của câu hỏi -->
         <style>
+            .faq-ruler{
+                margin-top: 50px;
+            }
             .faq__list a {
                 padding-left: 10px;
             }
@@ -1051,7 +1016,7 @@
                                                 </li>
                                                 <li>
 
-                                                    <a href="shop-side-version-2.html">Cửa hàng</a>
+                                                    <a href="shop-grid-left.html">Cửa hàng</a>
                                                 </li>
                                                 <li>
 
@@ -1059,7 +1024,7 @@
                                                 </li>
                                                 <li>
 
-                                                    <a href="shop-side-version-2.html">Shop</a>
+                                                    <a href="shop-grid-left.html">Shop</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1089,7 +1054,7 @@
                                                 </li>
                                                 <li>
 
-                                                    <a href="shop-side-version-2.html">Cửa hàng</a>
+                                                    <a href="shop-grid-left.html">Cửa hàng</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1144,7 +1109,7 @@
                             <div class="lower-footer__content">
                                 <div class="lower-footer__copyright">
 
-                                    <span>Copyright © 2023</span>
+                                    <span>Copyright © 2024</span>
 
                                     <a href="index.html">chieuminhcac</a>
 

@@ -59,13 +59,13 @@
 
         <!--====== Main Header ======-->
         <!-- <header class="...">: áp dụng định dạng của class ... cho thẻ header; header là thẻ định nghĩa header của trang-->
-        <header class="header--style-2">
+        <header class="header--style-1">
             <div class="top-banner">
                 <p id="banner-text">CHÀO MỪNG GIÁNG SINH - GIẢM GIÁ 20% TẤT CẢ CÁC SẢN PHẨM CỦA CHIÊU MINH CÁC - 昭明閣</p>
             </div>
             <!--====== Nav 1 (dòng header đầu tiên) ======-->
             <!-- <nav class="...">: áp dụng định dạng của class ... cho thẻ nav; thẻ nav được sử dụng để định nghĩa thanh menu hoặc các liên kết điều hướng quan trọng trên một trang/website -->
-            <nav class="primary-nav-wrapper">
+            <nav class="primary-nav primary-nav-wrapper">
                 <div class="container">
 
                     <!--====== Primary Nav ======-->
@@ -77,7 +77,7 @@
                         <!--thẻ <a> được dùng để xác định một liên kết; liên kết đó được chỉnh định trong thuộc tính href trong thẻ a-->
                         <a class="main-logo" href="index.html">
                             <!-- khi người dùng nhấp vào hình ảnh thì nó sẽ được chuyển hướng đến trang được chỉnh định trong thuộc tính href của thẻ a-->
-                            <img src="images/preloader.png" alt="">
+                            <img src="images/logo/logo.png" alt="">
                         </a>
                         <!--====== End - Main Logo ======-->
                         <!--====== Search Form: đoạn code này dùng để thể hiện nội dung của thanh tìm kiếm ======-->
@@ -197,12 +197,12 @@
                         <!--====== Dropdown Main plugin: dòng code này nhằm mục đích để thanh menu trang chủ, cửa hàng,... được đẩy vào giữa ======-->
                         <!--======Tạo responsive design cho header-->
                         <div class="menu-init" id="navigation1">
-                            <button style="background-color: #7A0516;" class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
+                            <button class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
 
                             <!--====== Menu ======-->
                             <div class="ah-lg-mode">
 
-                                <span class="ah-close">✕ Close</span>
+                                 <span class="ah-close">✕ Đóng</span>
 
                                 <!--====== List ======-->
                                 <ul class="ah-list">
@@ -217,20 +217,6 @@
                                             <div class="mega-menu-wrap">
                                                 <div class="mega-menu-list">
                                                     <ul>
-                                                        <li class="js-active">
-
-                                                            <a href="shop-grid-left.html"><i class="fas fa-male u-s-m-r-6"></i>
-    
-                                                                    <span>Nam</span></a>
-
-                                                            <span class="js-menu-toggle js-toggle-mark"></span></li>
-                                                        <li>
-
-                                                            <a href="shop-grid-left.html"><i class="fas fa-female u-s-m-r-6"></i>
-    
-                                                                    <span>Nữ</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
                                                         <li>
 
                                                             <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i></i>
@@ -238,20 +224,7 @@
                                                                     <span>Nhật Bình</span></a>
 
                                                             <span class="js-menu-toggle"></span></li>
-                                                        <li>
 
-                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
-    
-                                                                    <span>Ngũ thân tay chẽn</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
-                                                        <li>
-
-                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
-    
-                                                                    <span>Ngũ thân tay thụng</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
                                                         <li>
 
                                                             <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
@@ -292,7 +265,7 @@
                                                             <ul>
                                                                 <li class="mega-list-title">
 
-                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                    <a href="shop-grid-left.html">NHẬT BÌNH</a></li>
                                                                 <li>
 
                                                                     <a href="shop-grid-left.html">Trắng</a>
@@ -385,7 +358,7 @@
                                                             <ul>
                                                                 <li class="mega-list-title">
 
-                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                    <a href="shop-grid-left.html">NHẬT BÌNH</a></li>
                                                                 <li>
 
                                                                     <a href="shop-grid-left.html">Trắng</a>
@@ -628,7 +601,7 @@
                         <!--====== Dropdown Main plugin ======-->
                         <div class="menu-init" id="navigation2">
 
-                            <button style="color:#7A0516;" class="btn btn--icon toggle-button toggle-button--white fas fa-bars" type="button"></button>
+                            <button style="color:#ffca3d;" class="btn btn--icon toggle-button toggle-button--white " type="button"><i class="fas fa-bars"></i></button>
                             <!--====== Menu ======-->
                             <div class="ah-lg-mode">
                                 <span class="ah-close">X Đóng</span>
@@ -648,19 +621,8 @@
                                         <!--====== Dropdown ======-->
                                         <span class="js-menu-toggle"></span>
                                         <ul style="width:170px">
-
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Nam</a>
-                                            </li>
-
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Nữ</a>
-                                            </li>
                                             <li class="has-dropdown has-dropdown--ul-left-100">
                                                 <a href="shop-grid-left.html">Nhật Bình</a>
-                                            </li>
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Ngũ Thân</a>
                                             </li>
                                             <li class="has-dropdown has-dropdown--ul-left-100">
                                                 <a href="shop-grid-left.html">Áo Tấc</a>
@@ -729,18 +691,18 @@
                                                     <div class="mini-product">
                                                         <div class="mini-product__image-wrapper">
                                                             <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/electronic/product3.jpg" alt="">
+                                                                <img class="u-img-fluid" src="images/product/Nữ/1. Nhật Bình Vàng.jpg" alt="">
                                                             </a>
                                                         </div>
                                                         <div class="mini-product__info-wrapper">
                                                             <span class="mini-product__category">
-                                                                    <a href="shop-grid-left.html ">Nam</a>
-                                                                </span>
+                                                                <a href="shop-grid-left.html ">Nhật Bình</a>
+                                                            </span>
                                                             <span class="mini-product__name">
-                                                                    <a href="product-detail.html">Nam TISSOT LE LOCLE POWERMATIC 80 OPEN HEART T006.407.11.033.02</a>
-                                                                </span>
+                                                                <a href="product-detail.html">Nhật Bình Hoàng Hậu</a>
+                                                            </span>
                                                             <span class="mini-product__quantity">1 x</span>
-                                                            <span class="mini-product__price">21.897.000đ</span>
+                                                            <span class="mini-product__price">7.800.000đ</span>
                                                         </div>
                                                     </div>
                                                     <a class="mini-product__delete-link far fa-trash-alt"></a>
@@ -753,23 +715,23 @@
 
                                                         <div class="mini-product__image-wrapper">
                                                             <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/electronic/product18.jpg" alt="">
+                                                                <img class="u-img-fluid" src="images/product/Nữ/Ngũ thân tay chẽn trắng.jpg" alt="">
                                                             </a>
                                                         </div>
 
                                                         <div class="mini-product__info-wrapper">
 
                                                             <span class="mini-product__category">
-                                                                    <a href="shop-grid-left.html">Nữ</a>
-                                                                </span>
+                                                                <a href="shop-grid-left.html">Áo tấc</a>
+                                                            </span>
 
                                                             <span class="mini-product__name">
-                                                                    <a href="product-detail.html">ĐỒNG HỒ SKAGEN SKW2139</a>
-                                                                </span>
+                                                                <a href="product-detail.html">Áo tấc Nữ trắng</a>
+                                                            </span>
 
                                                             <span class="mini-product__quantity">1 x</span>
 
-                                                            <span class="mini-product__price">2.175.000đ</span>
+                                                            <span class="mini-product__price">2.800.000đ</span>
 
                                                         </div>
 
@@ -810,7 +772,7 @@
                                                 <div class="mini-total">
 
                                                     <span class="subtotal-text">TỔNG GIỎ HÀNG</span>
-                                                    <span class="subtotal-value">28.518.000đ</span>
+                                                    <span class="subtotal-value">10.600.000đ</span>
                                                 </div>
                                                 <div class="mini-action">
 
@@ -836,7 +798,6 @@
             <!--====== End - Nav 2 ======-->
         </header>
         <!--====== End - Main Header ======-->
-
         <!--====== App Content ======-->
         <div class="app-content">
 
@@ -851,7 +812,8 @@
                             <!--====== Image Code ======-->
                             <div class="aspect aspect--bg-grey aspect--1366-768">
 
-                                <img class="aspect__img" src="images/blog/iphone 15.jpg" alt=""></div>
+                                <img class="aspect__img" src="https://scontent.fsgn14-1.fna.fbcdn.net/v/t39.30808-6/435725078_746125750995441_7337035488568948484_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEYtyFcvyQ7n5tIe_O4gwc16qZy5SMefpjqpnLlIx5-mLA-BkLVTUtmqWXsejjo98wHDIe5jl5Nv1xtvVz3chfU&_nc_ohc=HEp7CCD9hbcQ7kNvgGVtl8I&_nc_zt=23&_nc_ht=scontent.fsgn14-1.fna&_nc_gid=AePGxO1m1rUYL8c33NHOToj&oh=00_AYDsf-liiP97TXjL0aIk3uscgU8wAGjF1tnDWAfZjjL-bQ&oe=675CA5D8"
+                                    alt=""></div>
                             <!--====== End - Image Code ======-->
                         </div>
                         <div class="bp-detail__info-wrap">
@@ -863,7 +825,7 @@
 
                                         <a href="blog-right-sidebar.html">
 
-                                            <span>19 tháng 12 năm 2023</span></a>
+                                            <span>19 tháng 12 năm 2024</span></a>
                                 </span>
                                 </span>
 
@@ -881,7 +843,7 @@
 
                                         <a href="blog-right-sidebar.html">Học tập</a>
 
-                                        <a href="blog-right-sidebar.html">Sức khỏe</a></span></span>
+                                        <a href="blog-right-sidebar.html">Lịch sử</a></span></span>
                             </div>
 
                             <span class="bp-detail__h1">
@@ -889,26 +851,31 @@
                                 <a href="blog-detail.html">Khám phá tất cả.</a></span>
                             <div class="blog-t-w">
 
-                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Travel</a>
+                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Nhật Bình</a>
 
-                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Culture</a>
+                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Việt Phục</a>
 
-                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Place</a></div>
-                            <p class="bp-detail__p">Úm ba la ra ảnh chân dung mới đẹp diệu kỳ.
-                                <a href="#">printer </a>Thêm chi tiết cùng màu sắc phong phú hơn tạo nên sự khác biệt đáng kể cho những bức ảnh chân dung của bạn. Và giờ đây bạn có thể bấm để chuyển tiêu điểm giữa các đối tượng – ngay cả sau khi bạn chụp.
-                                Quy trình trao đổi ion kép đặc chế cho kính, cùng khung viền nhôm chuẩn hàng không vũ trụ giúp iPhone 15 trở nên cực kỳ bền bỉ.</p>
+                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Lịch sử</a></div>
+                            <p class="bp-detail__p">Lịch sử và Ý nghĩa áo
+                                <a href="#">Nhật Bình </a>Khám phá nguồn gốc và ý nghĩa đặc biệt của áo Nhật Bình – biểu tượng quyền uy và sự cao quý của hoàng hậu cùng cung tần triều Nguyễn!
+                            </p>
 
-                            <!--====== Image Code ======-->
-
-                            <video width="1366" height="500" controls>
-                                    <source src="images/blog/large_2x.mp4" type="video/mp4">
+                            <!--====== Embed Video Youtube ======-->
+                            <iframe width="914" height="514" src="https://www.youtube.com/embed/LEs2CWT9jVU?si=MS6m0HjlUhegqlmg" title="Chiêu Minh Các" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <!--====== End - Embed Video Youtube ======-->
                             <!--====== End - Image Code ======-->
 
-                            <p class="bp-detail__p">Muốn nhanh chóng ghi lại khoảnh khắc trước khi nó qua đi? Bạn không còn phải chuyển sang chế độ Chân Dung nữa. Nếu chủ thể được chụp là người, thú cưng như chó hay mèo, iPhone 15 sẽ tự động thu nhận thông tin chiều sâu. Nhờ đó, bạn có thể chọn để ngay lập tức xem ảnh vừa chụp như ảnh chân dung, với hiệu ứng làm mờ đầy nghệ thuật. Hoặc sau đó bạn có thể chỉnh ảnh thường thành ảnh chân dung trong ứng dụng Ảnh.</p>
+                            <p class="bp-detail__p">Nguồn gốc của áo Nhật bình là loại áo Phi phong của triều Minh, được triều Nguyễn tiếp thu, cải cách thành kiểu áo Phi phong đối khâm với những nét riêng, rất đặc sắc. Áo có phần cổ thiết kế hình chữ nhật to bản, hai vạt được
+                                cố định bằng dây buộc, khi mặc vào thì phần trước ngực được ghép lại thành một hình chữ nhật nên mới có tên là áo Nhật bình. Khắp thân áo thường được trang trí lộng lẫy bằng các hoa văn dạng tròn dạng phụng ổ, loan ổ đan
+                                xen với các hình hoa lá, chữ Phúc, chữ Thọ… đính kim tuyến lấp lánh. Các hoa văn trang trí được sắp xếp dựa vào cấp bậc, vai vế của người mặc. Vì vậy, khi nhìn vào phần màu sắc, hoa văn của áo Nhật bình thì có thể xác định
+                                ngay được địa vị, danh phận của người mặc áo. Trừ Nhật bình dành cho bậc hoàng hậu ra, các kiểu áo Nhật bình khác ở tay áo đều có dải màu ngũ hành: lục, vàng, xanh, trắng, đỏ khiến loại trang phục này càng thêm rực rỡ.</p>
                             <blockquote class="bp-detail__q"><i class="fas fa-quote-left"></i>
 
-                                <span class="bp-detail__q-title">Thêm chi tiết cùng màu sắc phong phú hơn tạo nên sự khác biệt đáng kể cho những bức ảnh chân dung của bạn. Và giờ đây bạn có thể bấm để chuyển tiêu điểm giữa các đối tượng – ngay cả sau khi bạn chụp.</span><cite class="bp-detail__q-citation">— Minh Chí</cite></blockquote>
-                            <p class="bp-detail__p">Muốn nhanh chóng ghi lại khoảnh khắc trước khi nó qua đi? Bạn không còn phải chuyển sang chế độ Chân Dung nữa. Nếu chủ thể được chụp là người, thú cưng như chó hay mèo, iPhone 15 sẽ tự động thu nhận thông tin chiều sâu. Nhờ đó, bạn có thể chọn để ngay lập tức xem ảnh vừa chụp như ảnh chân dung, với hiệu ứng làm mờ đầy nghệ thuật. Hoặc sau đó bạn có thể chỉnh ảnh thường thành ảnh chân dung trong ứng dụng Ảnh.</p>
+                                <span class="bp-detail__q-title">Nhật bình thuộc dạng thức áo đối khâm khoác bên ngoài áo dài tay chẽn hoặc áo tấc, được cài khuy chính giữa. Ngoài ra, nút áo tròn bằng ngọc điêu khắc tinh xảo dùng để trang trí chính là điểm đặc trưng của nhật bình so với áo phi phong nhà Minh.
+                                </span><cite class="bp-detail__q-citation">— Ý nghĩa Nhật Bình</cite></blockquote>
+                            <p class="bp-detail__p">Nhật Bình chính là thường phục của bậc Hoàng Thái hậu, Hoàng hậu, Hoàng Quý phi và là lễ phục của các bậc từ Nhất giai phi đến Tứ giai tần, tùy phẩm cấp mà màu sắc và hoa văn có điểm khác biệt để phân định rõ ràng. Có thể kể
+                                đến nhật bình của Hoàng hậu được làm từ sa sợi vàng thêu 20 hình rồng, phượng, loan, trĩ. Ở dưới phần tà áo còn có hoa văn tam sơn thủy ba được thêu vô cùng tinh xảo.
+                            </p>
                             <div class="post-center-wrap">
                                 <ul class="bp-detail__social-list">
                                     <li>
@@ -948,7 +915,7 @@
                             <div class="col-lg-12">
                                 <div class="d-meta__comment-arena">
 
-                                    <span class="d-meta__text u-s-m-b-36">Đánh giá Điện thoại iPhone 15 128GB</span>
+                                    <span class="d-meta__text u-s-m-b-36">Khu vực bình luận</span>
                                     <div class="d-meta__comments u-s-m-b-30">
                                         <ol>
                                             <li>
@@ -958,18 +925,19 @@
                                                     <div class="p-comment__wrap1">
                                                         <div class="aspect aspect--square p-comment__img-wrap">
 
-                                                            <img src="images/blog/avatar.jpg" alt=""></div>
+                                                            <img src="images/avatar.jpg" alt=""></div>
                                                     </div>
                                                     <div class="p-comment__wrap2">
 
-                                                        <span class="p-comment__author">Nark</span>
+                                                        <span class="p-comment__author">Song Thanh</span>
 
                                                         <span class="p-comment__timestamp">
 
                                                             <a href="#">
 
-                                                                <span>Đã đăng 3 tuần</span></a></span>
-                                                        <p class="p-comment__paragraph">Pin trâu, mượt, camera nét, ngoại hình cute. Rất ok, xứng với tầm giá</p>
+                                                                <span>Đã đăng 3 tuần</span></a>
+                                                        </span>
+                                                        <p class="p-comment__paragraph">Sản phẩm rất xứng đánh với giá tiền!</p>
 
                                                         <a class="p-comment__reply" href="#">Trả lời</a>
                                                     </div>
@@ -983,18 +951,19 @@
                                                             <div class="p-comment__wrap1">
                                                                 <div class="aspect aspect--square p-comment__img-wrap">
 
-                                                                    <img src="images/blog/avatar-2.jpg" alt=""></div>
+                                                                    <img src="images/avatar.jpg" alt=""></div>
                                                             </div>
                                                             <div class="p-comment__wrap2">
 
-                                                                <span class="p-comment__author">Hiếu</span>
+                                                                <span class="p-comment__author">Khanh</span>
 
                                                                 <span class="p-comment__timestamp">
 
                                                                     <a href="#">
 
-                                                                        <span>Đã đăng 3 tuần</span></a></span>
-                                                                <p class="p-comment__paragraph">Máy đẹp dùng rất thích</p>
+                                                                        <span>Đã đăng 3 tuần</span></a>
+                                                                </span>
+                                                                <p class="p-comment__paragraph">Mình rất thích mặc Nhật Bình. Nhìn rất quý phái luôn ấy</p>
 
                                                                 <a class="p-comment__reply" href="#">Trả lời</a>
                                                             </div>
@@ -1008,107 +977,35 @@
                                                                     <div class="p-comment__wrap1">
                                                                         <div class="aspect aspect--square p-comment__img-wrap">
 
-                                                                            <img src="images/blog/avatar-3.jpg" alt=""></div>
+                                                                            <img src="images/avatar.jpg" alt=""></div>
                                                                     </div>
                                                                     <div class="p-comment__wrap2">
 
-                                                                        <span class="p-comment__author">Nguyễn Thành Long</span>
+                                                                        <span class="p-comment__author">Đỗ Nghi</span>
 
                                                                         <span class="p-comment__timestamp">
 
                                                                             <a href="#">
 
-                                                                                <span>Đã đăng 3 tuần</span></a></span>
-                                                                        <p class="p-comment__paragraph">Máy màu xịn xinh dã man 10 điểm cho bạn giao hàng nha vui vẽ nhiệt tình, giao hàng xa nhưng mà rất nhanh</p>
+                                                                                <span>Đã đăng 3 tuần</span></a>
+                                                                        </span>
+                                                                        <p class="p-comment__paragraph">Rất yêu thích Việt phục Việt Nam</p>
 
                                                                         <a class="p-comment__reply" href="#">Trả lời</a>
                                                                     </div>
                                                                 </div>
                                                                 <!--====== End - Comment ======-->
-                                                                <ol class="comment-children">
-                                                                    <li>
-
-                                                                        <!--====== Comment ======-->
-                                                                        <div class="d-meta__p-comment">
-                                                                            <div class="p-comment__wrap1">
-                                                                                <div class="aspect aspect--square p-comment__img-wrap">
-
-                                                                                    <img src="images/blog/avatar-4.jpg" alt=""></div>
-                                                                            </div>
-                                                                            <div class="p-comment__wrap2">
-
-                                                                                <span class="p-comment__author">Nguyên</span>
-
-                                                                                <span class="p-comment__timestamp">
-
-                                                                                    <a href="#">
-
-                                                                                        <span>Đã đăng 1 tuần</span></a></span>
-                                                                                <p class="p-comment__paragraph">Sẽ giới thiệu cho bạn bè, người thân</p>
-
-                                                                                <a class="p-comment__reply" href="#">Trả lời</a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!--====== End - Comment ======-->
-                                                                        <ol class="comment-children">
-                                                                            <li>
-
-                                                                                <!--====== Comment ======-->
-                                                                                <div class="d-meta__p-comment">
-                                                                                    <div class="p-comment__wrap1">
-                                                                                        <div class="aspect aspect--square p-comment__img-wrap">
-
-                                                                                            <img src="images/blog/avatar-5.jpg" alt=""></div>
-                                                                                    </div>
-                                                                                    <div class="p-comment__wrap2">
-
-                                                                                        <span class="p-comment__author">Anh Vịnh</span>
-
-                                                                                        <span class="p-comment__timestamp">
-
-                                                                                            <a href="#">
-
-                                                                                                <span>Đã đăng 2 tuần</span></a></span>
-                                                                                        <p class="p-comment__paragraph">Đã mua tại Retrodx</p>
-
-                                                                                        <a class="p-comment__reply" href="#">Trả lời</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <!--====== End - Comment ======-->
-                                                                            </li>
-                                                                            <li>
-
-                                                                                <!--====== Comment ======-->
-                                                                                <div class="d-meta__p-comment">
-                                                                                    <div class="p-comment__wrap1">
-                                                                                        <div class="aspect aspect--square p-comment__img-wrap">
-
-                                                                                            <img src="images/blog/avatar.jpg" alt=""></div>
-                                                                                    </div>
-                                                                                    <div class="p-comment__wrap2">
-
-                                                                                        <span class="p-comment__author">Hồng</span>
-
-                                                                                        <span class="p-comment__timestamp">
-
-                                                                                            <a href="#">
-
-                                                                                                <span>Đã đăng 1 ngày</span></a></span>
-                                                                                        <p class="p-comment__paragraph">Sẽ giới thiệu cho bạn bè, người thân</p>
-
-                                                                                        <a class="p-comment__reply" href="#">Trả lời</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <!--====== End - Comment ======-->
-                                                                            </li>
-                                                                        </ol>
-                                                                    </li>
-                                                                </ol>
+                                                            </li>
+                                                            <li>
                                                             </li>
                                                         </ol>
                                                     </li>
                                                 </ol>
                                             </li>
+                                        </ol>
+                                        </li>
+                                        </ol>
+                                        </li>
                                         </ol>
                                     </div>
 
@@ -1218,7 +1115,7 @@
                                                 </li>
                                                 <li>
 
-                                                    <a href="shop-side-version-2.html">Cửa hàng</a>
+                                                    <a href="shop-grid-left.html">Cửa hàng</a>
                                                 </li>
                                                 <li>
 
@@ -1226,7 +1123,7 @@
                                                 </li>
                                                 <li>
 
-                                                    <a href="shop-side-version-2.html">Shop</a>
+                                                    <a href="shop-grid-left.html">Shop</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1256,7 +1153,7 @@
                                                 </li>
                                                 <li>
 
-                                                    <a href="shop-side-version-2.html">Cửa hàng</a>
+                                                    <a href="shop-grid-left.html">Cửa hàng</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1311,7 +1208,7 @@
                             <div class="lower-footer__content">
                                 <div class="lower-footer__copyright">
 
-                                    <span>Copyright © 2023</span>
+                                    <span>Copyright © 2024</span>
 
                                     <a href="index.html">chieuminhcac</a>
 
@@ -1334,29 +1231,29 @@
             </div>
         </footer>
 
-    <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
-    <script>
-        window.ga = function() {
-            ga.q.push(arguments)
-        };
-        ga.q = [];
-        ga.l = +new Date;
-        ga('create', 'UA-XXXXX-Y', 'auto');
-        ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
+        <script>
+            window.ga = function() {
+                ga.q.push(arguments)
+            };
+            ga.q = [];
+            ga.l = +new Date;
+            ga('create', 'UA-XXXXX-Y', 'auto');
+            ga('send', 'pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
-    <!--====== Vendor Js ======-->
-    <script src="js/vendor.js"></script>
+        <!--====== Vendor Js ======-->
+        <script src="js/vendor.js"></script>
 
-    <!--====== jQuery Shopnav plugin ======-->
-    <script src="js/jquery.shopnav.js"></script>
+        <!--====== jQuery Shopnav plugin ======-->
+        <script src="js/jquery.shopnav.js"></script>
 
-    <!--====== App ======-->
-    <script src="js/app.js"></script>
+        <!--====== App ======-->
+        <script src="js/app.js"></script>
 
-    <!--====== Noscript ======-->
-    <noscript>
+        <!--====== Noscript ======-->
+        <noscript>
         <div class="app-setting">
             <div class="container">
                 <div class="row">
@@ -1372,4 +1269,5 @@
         </div>
     </noscript>
 </body>
+
 </html>

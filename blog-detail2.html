@@ -59,13 +59,13 @@
 
         <!--====== Main Header ======-->
         <!-- <header class="...">: áp dụng định dạng của class ... cho thẻ header; header là thẻ định nghĩa header của trang-->
-        <header class="header--style-2">
+        <header class="header--style-1">
             <div class="top-banner">
                 <p id="banner-text">CHÀO MỪNG GIÁNG SINH - GIẢM GIÁ 20% TẤT CẢ CÁC SẢN PHẨM CỦA CHIÊU MINH CÁC - 昭明閣</p>
             </div>
             <!--====== Nav 1 (dòng header đầu tiên) ======-->
             <!-- <nav class="...">: áp dụng định dạng của class ... cho thẻ nav; thẻ nav được sử dụng để định nghĩa thanh menu hoặc các liên kết điều hướng quan trọng trên một trang/website -->
-            <nav class="primary-nav-wrapper">
+            <nav class="primary-nav primary-nav-wrapper">
                 <div class="container">
 
                     <!--====== Primary Nav ======-->
@@ -77,7 +77,7 @@
                         <!--thẻ <a> được dùng để xác định một liên kết; liên kết đó được chỉnh định trong thuộc tính href trong thẻ a-->
                         <a class="main-logo" href="index.html">
                             <!-- khi người dùng nhấp vào hình ảnh thì nó sẽ được chuyển hướng đến trang được chỉnh định trong thuộc tính href của thẻ a-->
-                            <img src="images/preloader.png" alt="">
+                            <img src="images/logo/logo.png" alt="">
                         </a>
                         <!--====== End - Main Logo ======-->
                         <!--====== Search Form: đoạn code này dùng để thể hiện nội dung của thanh tìm kiếm ======-->
@@ -197,12 +197,12 @@
                         <!--====== Dropdown Main plugin: dòng code này nhằm mục đích để thanh menu trang chủ, cửa hàng,... được đẩy vào giữa ======-->
                         <!--======Tạo responsive design cho header-->
                         <div class="menu-init" id="navigation1">
-                            <button style="background-color: #7A0516;" class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
+                            <button class="btn btn--icon toggle-mega-text toggle-button" type="button">M</button>
 
                             <!--====== Menu ======-->
                             <div class="ah-lg-mode">
 
-                                <span class="ah-close">✕ Close</span>
+                                 <span class="ah-close">✕ Đóng</span>
 
                                 <!--====== List ======-->
                                 <ul class="ah-list">
@@ -217,20 +217,6 @@
                                             <div class="mega-menu-wrap">
                                                 <div class="mega-menu-list">
                                                     <ul>
-                                                        <li class="js-active">
-
-                                                            <a href="shop-grid-left.html"><i class="fas fa-male u-s-m-r-6"></i>
-    
-                                                                    <span>Nam</span></a>
-
-                                                            <span class="js-menu-toggle js-toggle-mark"></span></li>
-                                                        <li>
-
-                                                            <a href="shop-grid-left.html"><i class="fas fa-female u-s-m-r-6"></i>
-    
-                                                                    <span>Nữ</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
                                                         <li>
 
                                                             <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i></i>
@@ -238,20 +224,7 @@
                                                                     <span>Nhật Bình</span></a>
 
                                                             <span class="js-menu-toggle"></span></li>
-                                                        <li>
 
-                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
-    
-                                                                    <span>Ngũ thân tay chẽn</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
-                                                        <li>
-
-                                                            <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
-    
-                                                                    <span>Ngũ thân tay thụng</span></a>
-
-                                                            <span class="js-menu-toggle"></span></li>
                                                         <li>
 
                                                             <a href="index.html"><i class="fas fa-tshirt u-s-m-r-6"></i>
@@ -292,7 +265,7 @@
                                                             <ul>
                                                                 <li class="mega-list-title">
 
-                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                    <a href="shop-grid-left.html">NHẬT BÌNH</a></li>
                                                                 <li>
 
                                                                     <a href="shop-grid-left.html">Trắng</a>
@@ -385,7 +358,7 @@
                                                             <ul>
                                                                 <li class="mega-list-title">
 
-                                                                    <a href="shop-grid-left.html">NGŨ THÂN TAY CHẼN</a></li>
+                                                                    <a href="shop-grid-left.html">NHẬT BÌNH</a></li>
                                                                 <li>
 
                                                                     <a href="shop-grid-left.html">Trắng</a>
@@ -628,7 +601,7 @@
                         <!--====== Dropdown Main plugin ======-->
                         <div class="menu-init" id="navigation2">
 
-                            <button style="color:#7A0516;" class="btn btn--icon toggle-button toggle-button--white fas fa-bars" type="button"></button>
+                            <button style="color:#ffca3d;" class="btn btn--icon toggle-button toggle-button--white " type="button"><i class="fas fa-bars"></i></button>
                             <!--====== Menu ======-->
                             <div class="ah-lg-mode">
                                 <span class="ah-close">X Đóng</span>
@@ -648,19 +621,8 @@
                                         <!--====== Dropdown ======-->
                                         <span class="js-menu-toggle"></span>
                                         <ul style="width:170px">
-
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Nam</a>
-                                            </li>
-
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Nữ</a>
-                                            </li>
                                             <li class="has-dropdown has-dropdown--ul-left-100">
                                                 <a href="shop-grid-left.html">Nhật Bình</a>
-                                            </li>
-                                            <li class="has-dropdown has-dropdown--ul-left-100">
-                                                <a href="shop-grid-left.html">Ngũ Thân</a>
                                             </li>
                                             <li class="has-dropdown has-dropdown--ul-left-100">
                                                 <a href="shop-grid-left.html">Áo Tấc</a>
@@ -729,18 +691,18 @@
                                                     <div class="mini-product">
                                                         <div class="mini-product__image-wrapper">
                                                             <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/electronic/product3.jpg" alt="">
+                                                                <img class="u-img-fluid" src="images/product/Nữ/1. Nhật Bình Vàng.jpg" alt="">
                                                             </a>
                                                         </div>
                                                         <div class="mini-product__info-wrapper">
                                                             <span class="mini-product__category">
-                                                                    <a href="shop-grid-left.html ">Nam</a>
-                                                                </span>
+                                                                <a href="shop-grid-left.html ">Nhật Bình</a>
+                                                            </span>
                                                             <span class="mini-product__name">
-                                                                    <a href="product-detail.html">Nam TISSOT LE LOCLE POWERMATIC 80 OPEN HEART T006.407.11.033.02</a>
-                                                                </span>
+                                                                <a href="product-detail.html">Nhật Bình Hoàng Hậu</a>
+                                                            </span>
                                                             <span class="mini-product__quantity">1 x</span>
-                                                            <span class="mini-product__price">21.897.000đ</span>
+                                                            <span class="mini-product__price">7.800.000đ</span>
                                                         </div>
                                                     </div>
                                                     <a class="mini-product__delete-link far fa-trash-alt"></a>
@@ -753,23 +715,23 @@
 
                                                         <div class="mini-product__image-wrapper">
                                                             <a class="mini-product__link" href="product-detail.html">
-                                                                <img class="u-img-fluid" src="images/product/electronic/product18.jpg" alt="">
+                                                                <img class="u-img-fluid" src="images/product/Nữ/Ngũ thân tay chẽn trắng.jpg" alt="">
                                                             </a>
                                                         </div>
 
                                                         <div class="mini-product__info-wrapper">
 
                                                             <span class="mini-product__category">
-                                                                    <a href="shop-grid-left.html">Nữ</a>
-                                                                </span>
+                                                                <a href="shop-grid-left.html">Áo tấc</a>
+                                                            </span>
 
                                                             <span class="mini-product__name">
-                                                                    <a href="product-detail.html">ĐỒNG HỒ SKAGEN SKW2139</a>
-                                                                </span>
+                                                                <a href="product-detail.html">Áo tấc Nữ trắng</a>
+                                                            </span>
 
                                                             <span class="mini-product__quantity">1 x</span>
 
-                                                            <span class="mini-product__price">2.175.000đ</span>
+                                                            <span class="mini-product__price">2.800.000đ</span>
 
                                                         </div>
 
@@ -810,7 +772,7 @@
                                                 <div class="mini-total">
 
                                                     <span class="subtotal-text">TỔNG GIỎ HÀNG</span>
-                                                    <span class="subtotal-value">28.518.000đ</span>
+                                                    <span class="subtotal-value">10.600.000đ</span>
                                                 </div>
                                                 <div class="mini-action">
 
@@ -848,11 +810,8 @@
                     <div class="bp-detail">
                         <div class="bp-detail__thumbnail">
 
-                            <!--====== Image Code ======-->
-                            <div class="aspect aspect--bg-grey aspect--1366-768">
-
-                                <img class="aspect__img" src="images/blog/DSC04965-1-1.jpg" alt=""></div>
-                            <!--====== End - Image Code ======-->
+                            <!--====== Embed Video Youtube ======-->
+                            <iframe width="914" height="514" src="https://www.youtube.com/embed/2WuEEO1tHkk?si=XsMhVIZlSIZtPV9K" title="Chiêu Minh Các" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div class="bp-detail__info-wrap">
                             <div class="bp-detail__stat">
@@ -863,7 +822,7 @@
 
                                         <a href="blog-right-sidebar.html">
 
-                                            <span>19 tháng 12 năm 2023</span></a>
+                                            <span>9 tháng 2 năm 2024</span></a>
                                 </span>
                                 </span>
 
@@ -881,37 +840,30 @@
 
                                         <a href="blog-right-sidebar.html">Học tập</a>
 
-                                        <a href="blog-right-sidebar.html">Sức khỏe</a></span></span>
+                                        <a href="blog-right-sidebar.html">Lịch sử</a></span></span>
                             </div>
 
                             <span class="bp-detail__h1">
 
-                                <a href="blog-detail2.html">Tay cầm điều khiển máy game PlayStation 5 (không dây)</a></span>
+                                <a href="blog-detail2.html">CHIÊU MINH CÁC - LƯU GIỮ TINH HOA, LỊCH SỬ VIỆT NAM QUA VIỆT PHỤC</a></span>
                             <div class="blog-t-w">
 
-                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Travel</a>
+                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Chiêu Minh Các</a>
 
-                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Culture</a>
+                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">MADE BY VIETNAM</a>
 
-                                <a class="gl-tag btn--e-transparent-hover-brand-b-2" href="blog-right-sidebar.html">Place</a></div>
-                            <p class="bp-detail__p">Tay cầm Dualsense ở Máy chơi game PS5 cung cấp các tính năng cao cấp như: Haptic Feedback (phản hồi rung) , Dynamic Adaptive Trigger (Bộ kích hoạt thích ứng động với nút cò Trigger), Jack Audio kiêm Microphone, tất cả được
-                                tích hợp vào trong vào trong một thiết kế hoàn chỉnh mang tính biểu tượng của Sony.
-                                <a href="#">Adaptive Triggers  </a>Cụm phím Triggers mô phỏng lực của các hành động như bóp cò súng, kéo tên bắn… Phù hợp dành cho các game bắn súng.
-                                <!--====== Image Code ======-->
+                                <p class="bp-detail__p">Chiêu Minh Các - Thương hiệu Việt Phục được tạo nên từ một người trẻ với lòng say mê, tình yêu lịch sử và trân trọng những giá trị, nét văn hóa truyền thống Việt Nam.
+                                    <a href="#">Chiêu Minh Các  </a>không chỉ dừng lại ở những dự án truyền cảm hứng cho cộng đồng, đến nay, thương hiệu đã thực sự thành công giúp cổ phục Việt Nam có được một thị trường riêng, sôi động và không hề kém
+                                    cạnh trong thị trường thời trang vô cùng cạnh tranh và đầy màu sắc tại Việt Nam.</p>
+                                <!--====== End - Embed Video Youtube ======-->
 
-                                <div class="aspect aspect--bg-grey aspect--1366-768">
-
-                                    <img class="aspect__img" src="images/blog/tay-cam-ps5-sony-dualsense-midnight-black (6).jpg" alt=""></div>
-                                <!--====== End - Image Code ======-->
-
-                                <p class="bp-detail__p">Tay cầm PS5 được trang bị tính năng Haptic Feedback - tính năng mô phỏng các tương tác vật lý với môi trường trong game thông qua mô tơ rung được tích hợp, đem lại trải nghiệm chơi game chân thực hơn. MBR 1ms giúp chơi
-                                    game mượt mà, giảm hiện tượng nhòe và bóng mờ. Các đối tượng năng động và nhịp độ nhanh giữa tất cả các hành động có thể mang lại cho game thủ lợi thế cạnh tranh.</p>
+                                <p class="bp-detail__p"></p>
                                 <blockquote class="bp-detail__q"><i class="fas fa-quote-left"></i>
 
-                                    <span class="bp-detail__q-title">Tay cầm PS5 vẫn giữ lại những tính năng quen thuộc từ tay cầm PS4 như cổng sạc Type C, loa ngoài được tích hợp sẵn trên tay cầm và cảm biến chuyển động mang đến khả năng điều khiển chuyển động trực quan hơn cho người chơi.</span>
-                                    <cite class="bp-detail__q-citation">— Minh Chí</cite>
+                                    <span class="bp-detail__q-title">Đơn vị tiên phong trong dịch vụ cho thuê, thiết kế, và may đo cổ phục cao cấp, tỉ mỉ đến từng đường kim mũi chỉ, mang đến vẻ đẹp tinh tế.</span>
+                                    <cite class="bp-detail__q-citation">— Dương Phạm Trí</cite>
                                 </blockquote>
-                                <p class="bp-detail__p">Trò chuyện với bạn bè trực tuyến bằng micrô tích hợp - hoặc bằng cách kết nối tai nghe với giắc cắm 3.5 mm. Dễ dàng tắt tính năng chụp ảnh bằng giọng nói ngay lập tức bằng nút tắt tiếng chuyên dụng.</p>
+                                <p class="bp-detail__p"></p>
                                 <div class="post-center-wrap">
                                     <ul class="bp-detail__social-list">
                                         <li>
@@ -939,433 +891,356 @@
 
                                         <a href="blog-detail.html">Next Post</a></div>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!--====== End - Detail Post ======-->
+                <div class="u-s-p-b-60">
+                    <div class="d-meta">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="d-meta__comment-arena">
+
+                                        <span class="d-meta__text u-s-m-b-36">Khu vực bình luận</span>
+                                        <div class="d-meta__comments u-s-m-b-30">
+                                            <ol>
+                                                <li>
+
+                                                    <!--====== Comment ======-->
+                                                    <div class="d-meta__p-comment">
+                                                        <div class="p-comment__wrap1">
+                                                            <div class="aspect aspect--square p-comment__img-wrap">
+
+                                                                <img src="images/avatar.jpg" alt=""></div>
+                                                        </div>
+                                                        <div class="p-comment__wrap2">
+
+                                                            <span class="p-comment__author">Song Thanh</span>
+
+                                                            <span class="p-comment__timestamp">
+    
+                                                                <a href="#">
+    
+                                                                    <span>Đã đăng 3 tuần</span></a>
+                                                            </span>
+                                                            <p class="p-comment__paragraph">Sản phẩm rất xứng đánh với giá tiền!</p>
+
+                                                            <a class="p-comment__reply" href="#">Trả lời</a>
+                                                        </div>
+                                                    </div>
+                                                    <!--====== End - Comment ======-->
+                                                    <ol class="comment-children">
+                                                        <li>
+
+                                                            <!--====== Comment ======-->
+                                                            <div class="d-meta__p-comment">
+                                                                <div class="p-comment__wrap1">
+                                                                    <div class="aspect aspect--square p-comment__img-wrap">
+
+                                                                        <img src="images/avatar.jpg" alt=""></div>
+                                                                </div>
+                                                                <div class="p-comment__wrap2">
+
+                                                                    <span class="p-comment__author">Khanh</span>
+
+                                                                    <span class="p-comment__timestamp">
+    
+                                                                        <a href="#">
+    
+                                                                            <span>Đã đăng 3 tuần</span></a>
+                                                                    </span>
+                                                                    <p class="p-comment__paragraph">Mình rất thích mặc Nhật Bình. Nhìn rất quý phái luôn ấy</p>
+
+                                                                    <a class="p-comment__reply" href="#">Trả lời</a>
+                                                                </div>
+                                                            </div>
+                                                            <!--====== End - Comment ======-->
+                                                            <ol class="comment-children">
+                                                                <li>
+
+                                                                    <!--====== Comment ======-->
+                                                                    <div class="d-meta__p-comment">
+                                                                        <div class="p-comment__wrap1">
+                                                                            <div class="aspect aspect--square p-comment__img-wrap">
+
+                                                                                <img src="images/avatar.jpg" alt=""></div>
+                                                                        </div>
+                                                                        <div class="p-comment__wrap2">
+
+                                                                            <span class="p-comment__author">Đỗ Nghi</span>
+
+                                                                            <span class="p-comment__timestamp">
+    
+                                                                                <a href="#">
+    
+                                                                                    <span>Đã đăng 3 tuần</span></a>
+                                                                            </span>
+                                                                            <p class="p-comment__paragraph">Rất yêu thích Việt phục Việt Nam</p>
+
+                                                                            <a class="p-comment__reply" href="#">Trả lời</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--====== End - Comment ======-->
+                                                                </li>
+                                                                <li>
+                                                                </li>
+                                                            </ol>
+                                                        </li>
+                                                    </ol>
+                                                </li>
+                                            </ol>
+                                            </li>
+                                            </ol>
+                                            </li>
+                                            </ol>
+                                        </div>
+                                        <span class="d-meta__text-2 u-s-m-b-6">Tham gia bình luận</span>
+
+                                        <span class="d-meta__text-3 u-s-m-b-16">Địa chỉ email của bạn sẽ không được công khai. Các trường bắt buộc được đánh dấu *</span>
+                                        <form class="respond__form">
+                                            <div class="respond__group">
+                                                <div class="u-s-m-b-15">
+
+                                                    <label class="gl-label" for="comment">BÌNH LUẬN *</label><textarea class="text-area text-area--primary-style" id="comment"></textarea></div>
+                                                <div>
+                                                    <p class="u-s-m-b-30">
+
+                                                        <label class="gl-label" for="responder-name">HỌ VÀ TÊN *</label>
+
+                                                        <input class="input-text input-text--primary-style" type="text" id="responder-name"></p>
+                                                    <p class="u-s-m-b-30">
+
+                                                        <label class="gl-label" for="responder-email">EMAIL *</label>
+
+                                                        <input class="input-text input-text--primary-style" type="text" id="responder-email"></p>
+                                                </div>
+                                            </div>
+                                            <div>
+
+                                                <button class="btn btn--e-brand-shadow" type="submit">ĐĂNG BÌNH LUẬN</button></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== End - Section 1 ======-->
             </div>
-            <!--====== End - Detail Post ======-->
-            <div class="u-s-p-b-60">
-                <div class="d-meta">
+            <!--====== End - App Content ======-->
+
+
+            <!-- FOOTER -->
+            <!--====== Main Footer ======-->
+            <footer>
+                <div class="outer-footer">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <div class="d-meta__comment-arena">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="outer-footer__content u-s-m-b-40">
 
-                                    <span class="d-meta__text u-s-m-b-36">Đánh giá của khách hàng</span>
-                                    <div class="d-meta__comments u-s-m-b-30">
-                                        <ol>
+                                    <span class="outer-footer__content-title">Liên hệ</span>
+                                    <div class="outer-footer__text-wrap"><i class="fas fa-home"></i>
+
+                                        <span>458/12 Quang Trung, Phường 10, Quận Gò Vấp, TP.HCM</span>
+                                    </div>
+                                    <div class="outer-footer__text-wrap"><i class="fas fa-phone-volume"></i>
+
+                                        <span>(+84) 93 748 48 04
+                                    </span>
+                                    </div>
+                                    <div class="outer-footer__text-wrap"><i class="far fa-envelope"></i>
+
+                                        <span>contact@chieuminhcac.com</span>
+                                    </div>
+                                    <div class="outer-footer__social">
+                                        <ul>
                                             <li>
 
-                                                <!--====== Comment ======-->
-                                                <div class="d-meta__p-comment">
-                                                    <div class="p-comment__wrap1">
-                                                        <div class="aspect aspect--square p-comment__img-wrap">
+                                                <a class="s-fb--color-hover" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
 
-                                                            <img src="images/blog/avatar.jpg" alt=""></div>
-                                                    </div>
-                                                    <div class="p-comment__wrap2">
+                                                <a class="s-tw--color-hover" href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li>
 
-                                                        <span class="p-comment__author">Nark</span>
+                                                <a class="s-youtube--color-hover" href="#"><i
+                                                    class="fab fa-youtube"></i></a>
+                                            </li>
+                                            <li>
 
-                                                        <span class="p-comment__timestamp">
+                                                <a class="s-insta--color-hover" href="#"><i
+                                                    class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li>
 
-                                                            <a href="#">
+                                                <a class="s-gplus--color-hover" href="#"><i
+                                                    class="fab fa-google-plus-g"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="outer-footer__content u-s-m-b-40">
 
-                                                                <span>Đã đăng 3 tuần</span></a>
-                                                        </span>
-                                                        <p class="p-comment__paragraph">Pin trâu, mượt, camera nét, ngoại hình cute. Rất ok, xứng với tầm giá</p>
-
-                                                        <a class="p-comment__reply" href="#">Trả lời</a>
-                                                    </div>
-                                                </div>
-                                                <!--====== End - Comment ======-->
-                                                <ol class="comment-children">
+                                            <span class="outer-footer__content-title">Danh mục</span>
+                                            <div class="outer-footer__list-wrap">
+                                                <ul>
                                                     <li>
 
-                                                        <!--====== Comment ======-->
-                                                        <div class="d-meta__p-comment">
-                                                            <div class="p-comment__wrap1">
-                                                                <div class="aspect aspect--square p-comment__img-wrap">
-
-                                                                    <img src="images/blog/avatar-2.jpg" alt=""></div>
-                                                            </div>
-                                                            <div class="p-comment__wrap2">
-
-                                                                <span class="p-comment__author">Hiếu</span>
-
-                                                                <span class="p-comment__timestamp">
-
-                                                                    <a href="#">
-
-                                                                        <span>Đã đăng 3 tuần</span></a>
-                                                                </span>
-                                                                <p class="p-comment__paragraph">Máy đẹp dùng rất thích</p>
-
-                                                                <a class="p-comment__reply" href="#">Trả lời</a>
-                                                            </div>
-                                                        </div>
-                                                        <!--====== End - Comment ======-->
-                                                        <ol class="comment-children">
-                                                            <li>
-
-                                                                <!--====== Comment ======-->
-                                                                <div class="d-meta__p-comment">
-                                                                    <div class="p-comment__wrap1">
-                                                                        <div class="aspect aspect--square p-comment__img-wrap">
-
-                                                                            <img src="images/blog/avatar-3.jpg" alt=""></div>
-                                                                    </div>
-                                                                    <div class="p-comment__wrap2">
-
-                                                                        <span class="p-comment__author">Nguyễn Thành Long</span>
-
-                                                                        <span class="p-comment__timestamp">
-
-                                                                            <a href="#">
-
-                                                                                <span>Đã đăng 3 tuần</span></a>
-                                                                        </span>
-                                                                        <p class="p-comment__paragraph">Máy màu xịn xinh dã man 10 điểm cho bạn giao hàng nha vui vẽ nhiệt tình, giao hàng xa nhưng mà rất nhanh</p>
-
-                                                                        <a class="p-comment__reply" href="#">Trả lời</a>
-                                                                    </div>
-                                                                </div>
-                                                                <!--====== End - Comment ======-->
-                                                                <ol class="comment-children">
-                                                                    <li>
-
-                                                                        <!--====== Comment ======-->
-                                                                        <div class="d-meta__p-comment">
-                                                                            <div class="p-comment__wrap1">
-                                                                                <div class="aspect aspect--square p-comment__img-wrap">
-
-                                                                                    <img src="images/blog/avatar-4.jpg" alt=""></div>
-                                                                            </div>
-                                                                            <div class="p-comment__wrap2">
-
-                                                                                <span class="p-comment__author">Nguyên</span>
-
-                                                                                <span class="p-comment__timestamp">
-
-                                                                                    <a href="#">
-
-                                                                                        <span>Đã đăng 1 tuần</span></a>
-                                                                                </span>
-                                                                                <p class="p-comment__paragraph">Sẽ giới thiệu cho bạn bè, người thân</p>
-
-                                                                                <a class="p-comment__reply" href="#">Trả lời</a>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!--====== End - Comment ======-->
-                                                                        <ol class="comment-children">
-                                                                            <li>
-
-                                                                                <!--====== Comment ======-->
-                                                                                <div class="d-meta__p-comment">
-                                                                                    <div class="p-comment__wrap1">
-                                                                                        <div class="aspect aspect--square p-comment__img-wrap">
-
-                                                                                            <img src="images/blog/avatar-5.jpg" alt=""></div>
-                                                                                    </div>
-                                                                                    <div class="p-comment__wrap2">
-
-                                                                                        <span class="p-comment__author">Anh Vịnh</span>
-
-                                                                                        <span class="p-comment__timestamp">
-
-                                                                                            <a href="#">
-
-                                                                                                <span>Đã đăng 2 tuần</span></a>
-                                                                                        </span>
-                                                                                        <p class="p-comment__paragraph">Đã mua tại Retrodx</p>
-
-                                                                                        <a class="p-comment__reply" href="#">Trả lời</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <!--====== End - Comment ======-->
-                                                                            </li>
-                                                                            <li>
-
-                                                                                <!--====== Comment ======-->
-                                                                                <div class="d-meta__p-comment">
-                                                                                    <div class="p-comment__wrap1">
-                                                                                        <div class="aspect aspect--square p-comment__img-wrap">
-
-                                                                                            <img src="images/blog/avatar.jpg" alt=""></div>
-                                                                                    </div>
-                                                                                    <div class="p-comment__wrap2">
-
-                                                                                        <span class="p-comment__author">Hồng</span>
-
-                                                                                        <span class="p-comment__timestamp">
-
-                                                                                            <a href="#">
-
-                                                                                                <span>Đã đăng 1 ngày</span></a>
-                                                                                        </span>
-                                                                                        <p class="p-comment__paragraph">Sẽ giới thiệu cho bạn bè, người thân</p>
-
-                                                                                        <a class="p-comment__reply" href="#">Trả lời</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <!--====== End - Comment ======-->
-                                                                            </li>
-                                                                        </ol>
-                                                                    </li>
-                                                                </ol>
-                                                            </li>
-                                                        </ol>
+                                                        <a href="cart.html">Giỏ hàng</a>
                                                     </li>
-                                                </ol>
-                                            </li>
-                                        </ol>
-                                    </div>
+                                                    <li>
 
-                                    <span class="d-meta__text-2 u-s-m-b-6">Tham gia bình luận</span>
+                                                        <a href="dashboard.html">Tài khoản</a>
+                                                    </li>
+                                                    <li>
 
-                                    <span class="d-meta__text-3 u-s-m-b-16">Địa chỉ email của bạn sẽ không được công khai. Các trường bắt buộc được đánh dấu *</span>
-                                    <form class="respond__form">
-                                        <div class="respond__group">
-                                            <div class="u-s-m-b-15">
+                                                        <a href="shop-grid-left.html">Cửa hàng</a>
+                                                    </li>
+                                                    <li>
 
-                                                <label class="gl-label" for="comment">BÌNH LUẬN *</label><textarea class="text-area text-area--primary-style" id="comment"></textarea></div>
-                                            <div>
-                                                <p class="u-s-m-b-30">
+                                                        <a href="dash-payment-option.html">Thanh toán</a>
+                                                    </li>
+                                                    <li>
 
-                                                    <label class="gl-label" for="responder-name">HỌ VÀ TÊN *</label>
-
-                                                    <input class="input-text input-text--primary-style" type="text" id="responder-name"></p>
-                                                <p class="u-s-m-b-30">
-
-                                                    <label class="gl-label" for="responder-email">EMAIL *</label>
-
-                                                    <input class="input-text input-text--primary-style" type="text" id="responder-email"></p>
+                                                        <a href="shop-grid-left.html">Shop</a>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="outer-footer__content u-s-m-b-40">
+                                            <div class="outer-footer__list-wrap">
 
-                                            <button class="btn btn--e-brand-shadow" type="submit">ĐĂNG BÌNH LUẬN</button></div>
+                                                <span class="outer-footer__content-title">Thông tin</span>
+                                                <ul>
+                                                    <li>
+
+                                                        <a href="about.html">Về chúng tôi</a>
+                                                    </li>
+                                                    <li>
+
+                                                        <a href="contact.html">Liên hệ</a>
+                                                    </li>
+                                                    <li>
+
+                                                        <a href="index.html">Địa chỉ</a>
+                                                    </li>
+                                                    <li>
+
+                                                        <a href="dash-my-order.html">Giao hàng</a>
+                                                    </li>
+                                                    <li>
+
+                                                        <a href="shop-grid-left.html">Cửa hàng</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="outer-footer__content">
+
+                                    <span class="outer-footer__content-title">Đăng ký thành viên</span>
+                                    <form class="newsletter">
+                                        <div class="u-s-m-b-15">
+                                            <div class="radio-box newsletter__radio">
+
+                                                <input type="radio" id="male" name="gender">
+                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                    <label class="radio-box__label" for="male">Nam</label>
+                                                </div>
+                                            </div>
+                                            <div class="radio-box newsletter__radio">
+
+                                                <input type="radio" id="female" name="gender">
+                                                <div class="radio-box__state radio-box__state--primary">
+
+                                                    <label class="radio-box__label" for="female">Nữ</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="newsletter__group">
+
+                                            <label for="newsletter"></label>
+
+                                            <input class="input-text input-text--only-white" type="text" id="newsletter" placeholder="Nhập Email của bạn">
+
+                                            <button class="btn btn--e-brand newsletter__btn" type="submit">ĐĂNG KÝ</button>
+                                        </div>
+
+                                        <span class="newsletter__text">Đăng ký để cập nhật thông tin mới nhất về chương
+                                        trình giảm giá, sản phẩm mới nhất của chúng tôi!</span>
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--====== End - Section 1 ======-->
-        </div>
-        <!--====== End - App Content ======-->
+                <div class="lower-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="lower-footer__content">
+                                    <div class="lower-footer__copyright">
 
+                                        <span>Copyright © 2024</span>
 
-        <!-- FOOTER -->
-        <!--====== Main Footer ======-->
-        <footer>
-            <div class="outer-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="outer-footer__content u-s-m-b-40">
+                                        <a href="index.html">chieuminhcac</a>
 
-                                <span class="outer-footer__content-title">Liên hệ</span>
-                                <div class="outer-footer__text-wrap"><i class="fas fa-home"></i>
-
-                                    <span>458/12 Quang Trung, Phường 10, Quận Gò Vấp, TP.HCM</span>
-                                </div>
-                                <div class="outer-footer__text-wrap"><i class="fas fa-phone-volume"></i>
-
-                                    <span>(+84) 93 748 48 04
-                                    </span>
-                                </div>
-                                <div class="outer-footer__text-wrap"><i class="far fa-envelope"></i>
-
-                                    <span>contact@chieuminhcac.com</span>
-                                </div>
-                                <div class="outer-footer__social">
-                                    <ul>
-                                        <li>
-
-                                            <a class="s-fb--color-hover" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-
-                                            <a class="s-tw--color-hover" href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-
-                                            <a class="s-youtube--color-hover" href="#"><i
-                                                    class="fab fa-youtube"></i></a>
-                                        </li>
-                                        <li>
-
-                                            <a class="s-insta--color-hover" href="#"><i
-                                                    class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-
-                                            <a class="s-gplus--color-hover" href="#"><i
-                                                    class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="outer-footer__content u-s-m-b-40">
-
-                                        <span class="outer-footer__content-title">Danh mục</span>
-                                        <div class="outer-footer__list-wrap">
-                                            <ul>
-                                                <li>
-
-                                                    <a href="cart.html">Giỏ hàng</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="dashboard.html">Tài khoản</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="shop-side-version-2.html">Cửa hàng</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="dash-payment-option.html">Thanh toán</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="shop-side-version-2.html">Shop</a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <span>All Right Reserved</span>
                                     </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="outer-footer__content u-s-m-b-40">
-                                        <div class="outer-footer__list-wrap">
-
-                                            <span class="outer-footer__content-title">Thông tin</span>
-                                            <ul>
-                                                <li>
-
-                                                    <a href="about.html">Về chúng tôi</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="contact.html">Liên hệ</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="index.html">Địa chỉ</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="dash-my-order.html">Giao hàng</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="shop-side-version-2.html">Cửa hàng</a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                    <div class="lower-footer__payment">
+                                        <ul>
+                                            <li><i class="fab fa-cc-stripe"></i></li>
+                                            <li><i class="fab fa-cc-paypal"></i></li>
+                                            <li><i class="fab fa-cc-mastercard"></i></li>
+                                            <li><i class="fab fa-cc-visa"></i></li>
+                                            <li><i class="fab fa-cc-discover"></i></li>
+                                            <li><i class="fab fa-cc-amex"></i></li>
+                                        </ul>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12">
-                            <div class="outer-footer__content">
-
-                                <span class="outer-footer__content-title">Đăng ký thành viên</span>
-                                <form class="newsletter">
-                                    <div class="u-s-m-b-15">
-                                        <div class="radio-box newsletter__radio">
-
-                                            <input type="radio" id="male" name="gender">
-                                            <div class="radio-box__state radio-box__state--primary">
-
-                                                <label class="radio-box__label" for="male">Nam</label>
-                                            </div>
-                                        </div>
-                                        <div class="radio-box newsletter__radio">
-
-                                            <input type="radio" id="female" name="gender">
-                                            <div class="radio-box__state radio-box__state--primary">
-
-                                                <label class="radio-box__label" for="female">Nữ</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="newsletter__group">
-
-                                        <label for="newsletter"></label>
-
-                                        <input class="input-text input-text--only-white" type="text" id="newsletter" placeholder="Nhập Email của bạn">
-
-                                        <button class="btn btn--e-brand newsletter__btn" type="submit">ĐĂNG KÝ</button>
-                                    </div>
-
-                                    <span class="newsletter__text">Đăng ký để cập nhật thông tin mới nhất về chương
-                                        trình giảm giá, sản phẩm mới nhất của chúng tôi!</span>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="lower-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="lower-footer__content">
-                                <div class="lower-footer__copyright">
-
-                                    <span>Copyright © 2023</span>
-
-                                    <a href="index.html">chieuminhcac</a>
-
-                                    <span>All Right Reserved</span>
-                                </div>
-                                <div class="lower-footer__payment">
-                                    <ul>
-                                        <li><i class="fab fa-cc-stripe"></i></li>
-                                        <li><i class="fab fa-cc-paypal"></i></li>
-                                        <li><i class="fab fa-cc-mastercard"></i></li>
-                                        <li><i class="fab fa-cc-visa"></i></li>
-                                        <li><i class="fab fa-cc-discover"></i></li>
-                                        <li><i class="fab fa-cc-amex"></i></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
 
-        <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
-        <script>
-            window.ga = function() {
-                ga.q.push(arguments)
-            };
-            ga.q = [];
-            ga.l = +new Date;
-            ga('create', 'UA-XXXXX-Y', 'auto');
-            ga('send', 'pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+            <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
+            <script>
+                window.ga = function() {
+                    ga.q.push(arguments)
+                };
+                ga.q = [];
+                ga.l = +new Date;
+                ga('create', 'UA-XXXXX-Y', 'auto');
+                ga('send', 'pageview')
+            </script>
+            <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
-        <!--====== Vendor Js ======-->
-        <script src="js/vendor.js"></script>
+            <!--====== Vendor Js ======-->
+            <script src="js/vendor.js"></script>
 
-        <!--====== jQuery Shopnav plugin ======-->
-        <script src="js/jquery.shopnav.js"></script>
+            <!--====== jQuery Shopnav plugin ======-->
+            <script src="js/jquery.shopnav.js"></script>
 
-        <!--====== App ======-->
-        <script src="js/app.js"></script>
+            <!--====== App ======-->
+            <script src="js/app.js"></script>
 
-        <!--====== Noscript ======-->
-        <noscript>
+            <!--====== Noscript ======-->
+            <noscript>
         <div class="app-setting">
             <div class="container">
                 <div class="row">
