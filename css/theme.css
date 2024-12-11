@@ -144,7 +144,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #333333;
+    color: #7A0516;
     font-weight: 700;
     margin: 0;
     line-height: 1.2;
@@ -180,6 +180,7 @@ blockquote {
 
 strong {
     font-weight: 700;
+    color: black;
 }
 
 
@@ -202,6 +203,7 @@ strong {
     text-transform: capitalize;
     font-weight: 400;
     font-size: 30px;
+    color: #7A0516;
 }
 
 .title-2 {
@@ -226,14 +228,14 @@ strong {
 .title-4 {
     font-weight: 500;
     font-size: 30px;
-    color: #393939;
+    color: #7A0516;
 }
 
 .title-5 {
     text-transform: capitalize;
     font-size: 22px;
     font-weight: 500;
-    color: #393939;
+    color: #7A0516;
 }
 
 .title-6 {
@@ -335,10 +337,7 @@ section {
 
 .page-wrapper {
     overflow: hidden;
-    background: linear-gradient( to right, rgba(255, 247, 220, 0.7) 3%, /* FFF7DC with 70% opacity */
-    rgba(239, 221, 192, 1) 57%, /* EFDDC0 with 100% opacity */
-    rgba(255, 213, 142, 1) 100%/* FFD58E with 100% opacity */
-    );
+    background: white;
     padding-bottom: 8vh;
 }
 
@@ -354,10 +353,7 @@ section {
 }
 
 .page-container {
-    background: linear-gradient( to right, rgba(255, 247, 220, 0.7) 3%, /* FFF7DC with 70% opacity */
-    rgba(239, 221, 192, 1) 57%, /* EFDDC0 with 100% opacity */
-    rgba(255, 213, 142, 1) 100%/* FFD58E with 100% opacity */
-    );
+    background: white;
     padding-left: 300px;
 }
 
@@ -1117,7 +1113,7 @@ section {
 }
 
 .rs-select2--light .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #808080;
+    color: black;
     font-size: 14px;
 }
 
@@ -1295,7 +1291,7 @@ section {
 /* ----- Header ----- */
 
 .header-desktop {
-    background: #f5f5f5;
+    background: #7A0516;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
@@ -1534,7 +1530,7 @@ section {
 }
 
 .account-item>.content>a {
-    color: #333;
+    color: white;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -1549,7 +1545,7 @@ section {
 }
 
 .account-item>.content>a:hover {
-    color: #666;
+    color: #ffca3d;
 }
 
 .account-dropdown {
@@ -1690,16 +1686,12 @@ section {
     left: 0;
     top: 0;
     bottom: 0;
-    background: linear-gradient( to right, rgba(255, 247, 220, 0.7) 3%, /* FFF7DC with 70% opacity */
-    rgba(239, 221, 192, 1) 57%, /* EFDDC0 with 100% opacity */
-    rgba(255, 213, 142, 1) 100%/* FFD58E with 100% opacity */
-    );
-    ;
+    background: #7A0516;
     overflow-y: auto;
 }
 
 .menu-sidebar .logo {
-    background: #f5f5f5;
+    background: #7A0516;
     height: 75px;
     padding: 0 35px;
     display: -webkit-box;
@@ -1743,7 +1735,7 @@ section {
 
 .navbar-sidebar .navbar__list li a {
     display: block;
-    color: #555;
+    color: white;
     font-size: 16px;
     padding: 15px 0;
 }
@@ -1753,7 +1745,7 @@ section {
 }
 
 .navbar-sidebar .navbar__list li a:hover {
-    color: #4272d7;
+    color: #ffca3d;
 }
 
 .navbar-sidebar .navbar__list li.active>a {
@@ -1769,6 +1761,7 @@ section {
     top: 0;
     left: 0;
     right: 0;
+    background-color: #7A0516;
 }
 
 .header-mobile .header-mobile__bar {
@@ -4638,7 +4631,6 @@ section {
 .table-data2 thead tr th {
     font-size: 12px;
     color: #fff;
-    ;
     text-transform: uppercase;
     border: none;
     font-weight: 600;
@@ -4646,6 +4638,7 @@ section {
     padding: 15px 20px;
     padding-right: 25px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .table-data2.table thead th:first-child {
@@ -4664,7 +4657,7 @@ section {
     -webkit-border-bottom-left-radius: 3px;
     -moz-border-radius-bottomleft: 3px;
     border-bottom-left-radius: 3px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .table-data2.table tbody tr td:first-child .au-checkbox {
@@ -4849,6 +4842,7 @@ section {
     padding: 18px 40px;
     padding-right: 10px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .table-data3 thead tr th:first-child {
@@ -4870,6 +4864,7 @@ section {
 
 .table-data3 tbody tr td:last-child {
     text-align: center;
+    vertical-align: middle;
     padding-right: 50px;
 }
 
@@ -4894,10 +4889,11 @@ section {
     border-bottom: 1px solid #f5f5f5;
     background: #fff;
     font-size: 14px;
-    color: #808080;
+    color: black;
     padding: 12px 40px;
     padding-right: 10px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .table-data3 tbody td.process {

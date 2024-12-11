@@ -38,6 +38,8 @@
     <!--====== App: lấy định dạng css từ file này ======-->
     <link rel="stylesheet" href="css/app.css">
 
+    <!--====== Thư viện Javascript chỉnh hiệu ứng lăn chuột-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 
 </head>
@@ -1128,7 +1130,17 @@
     </div>
     <!--====== End - Main App ======-->
 
+        <!--====== Script chỉnh hiệu ứng bay từng section =====-->
+        <script>
+            ScrollReveal({
+                reset:true,
+                distance: '60px',
+                duration:2500,
+                delay:400
+            });
 
+            ScrollReveal().reveal('.contact-o__wrap', { delay: 200, origin: 'bottom' });
+        </script>
     <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
     <script>
         window.ga = function() {

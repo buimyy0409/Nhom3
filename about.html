@@ -38,6 +38,8 @@
     <!--====== App: lấy định dạng css từ file này ======-->
     <link rel="stylesheet" href="css/app.css">
 
+    <!--====== Thư viện javascript scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 
 </head>
@@ -803,26 +805,15 @@
         <div class="app-content">
 
             <!--====== Section 1 ======-->
-            <div class="u-s-p-y-60">
-
                 <!--====== Section Content ======-->
-                <div class="section__content">
-                    <div class="container">
-                        <div class="breadcrumb">
-                            <div class="breadcrumb__wrap">
-                                <ul class="breadcrumb__list">
-                                    <li class="has-separator">
-
-                                        <a href="index.html">Trang chủ</a></li>
-                                    <li class="is-marked">
-
-                                        <a href="about.html">Về chúng tôi</a></li>
-                                </ul>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="contact-area u-h-100" style="margin-bottom: 20px;">
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <!--====== End - Section 1 ======-->
 
 
@@ -991,7 +982,7 @@
                                             <span class="team-member__name">Lê Tú Quyên</span>
                                         </div>
                                         <span class="team-member__job-title">Thành viên</span>
-                                        <span class="team-member__job-title-role">Thiết kế web</span>
+                                        <span class="team-member__job-title-role">Web Designer</span>
                                     </div>
                                 </div>
                             </div>
@@ -1102,7 +1093,7 @@
                                             <span class="team-member__name">Phạm Hải Thụy</span>
                                         </div>
                                         <span class="team-member__job-title">Thành viên</span>
-                                        <span class="team-member__job-title-role">Thiết kế web</span>
+                                        <span class="team-member__job-title-role">Web Designer</span>
                                     </div>
                                 </div>
                             </div>
@@ -1383,8 +1374,20 @@
                 </div>
             </div>
         </footer>
+        <!--End Footer-->
+        <!--====== Script chỉnh hiệu ứng bay từng section =====-->
+        <script>
+            ScrollReveal({
+                reset:true,
+                distance: '60px',
+                duration:2500,
+                delay:400
+            });
 
-
+            ScrollReveal().reveal('.section__text-wrap', { delay: 200, origin: 'left' });
+            ScrollReveal().reveal('.section__content', { delay: 500, origin: 'bottom' });
+        </script>
+        <!--====== End Script chỉnh hiệu ứng====-->
         <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
         <script>
             window.ga = function() {
