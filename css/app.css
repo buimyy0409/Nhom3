@@ -8694,6 +8694,7 @@
      .ah-list>li {
          position: relative;
          border-top: 1px solid #f8f8f8;
+         display: block;
      }
      .ah-list>li>a {
          display: block;
@@ -8716,6 +8717,9 @@
              text-align: center; /* Canh giữa nội dung */
            
      }
+     .ah-list>.has-dropdown>.mega-text{
+        color: #7A0516;
+     }
      .js-menu-toggle {
          width: 21px;
          display: block;
@@ -8725,10 +8729,13 @@
          box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.13);
          position: absolute;
          right: 15px;
-         top: 6px;
+         top: 7px;
          transition: all .3s;
          cursor: pointer;
      }
+     .toggle-1 {
+        top: 1px;
+    }
      .js-menu-toggle:after {
          font-family: 'Font Awesome 5 Free';
          content: "\F067";
