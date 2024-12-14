@@ -4453,6 +4453,11 @@
      text-align: center;
      border: none;
  }
+ .cta .btn-cta:hover {
+    background: linear-gradient(60deg, #920404 20%, #ffca3d 100%);;
+    color: white;
+    transition: none;
+}
 
  
  .aboutus .btn-cta:hover {
