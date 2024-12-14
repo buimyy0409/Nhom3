@@ -8900,13 +8900,14 @@
          -moz-user-select: none;
          -ms-user-select: none;
          user-select: none;
-         background-color: #ffffff;
-         font-size: 12px;
+         font-size: 30px;
          font-weight: 600;
          line-height: 34px;
          text-align: center;
          cursor: pointer;
-         color: #7A0516;
+         color: #ffffff;
+         margin-top: -10px;
+         margin-left: 10px;
      }
     
      .mega-menu-list {
